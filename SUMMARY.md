@@ -1,9 +1,6 @@
 # Table of contents
 
-* SpreadSheet Basics
-	* Entering Data
-	* Navigation in a Sheet
-	* Cancelling/Repeating Actions
+* [SpreadSheet Basics](basics.md)
 * Working with Sheets
 	* Adding a new sheet
 	* Renaming a sheet
