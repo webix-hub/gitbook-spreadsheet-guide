@@ -1,18 +1,9 @@
 # Table of contents
 
 * [SpreadSheet Basics](basics.md)
-* Working with Sheets
-	* Adding a new sheet
-	* Renaming a sheet
-	* Removing a sheet
-	* Copying a sheet’s content
-* Import/Export from/to Excel
-	* Import from Excel
-	* Export to Excel
-* Working with Cells Content
-	* Font Settings
-	* Aligning Cell Content
-	* Merging Cells
+* [Working with Sheets](work_with_sheets.md)	
+* [Excel Import/Export](excel_import_export.md)
+* [Formatting Text and Cells](formatting_cells.md)
 * Setting the Number Format
 	* Creating Custom Format
 * Editing Cells
