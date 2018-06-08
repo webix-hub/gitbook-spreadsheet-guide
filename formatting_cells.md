@@ -14,42 +14,46 @@ There is a set of buttons that allow you to modify the default formatting and ap
 
 There are several options for aligning content of a cell:
 
-Horizontal alignment: Left/Center/Right
+- Horizontal alignment: **Left/Center/Right**
 
+![Horizontal Text Alignment](img/horizontal_alignment.md)
 
+- Vertical alignment: **Top/Middle/Bottom**
 
-Vertical alignment: Top/Middle/Bottom
+![Vertical Text Alignment](img/vertical_alignment.md)
 
+- Text wrapping
 
+This option allows breaking a long text into several lines to make all the text visible. Text wraps automatically to fit the column width.
 
-There are also two more options for cell content displaying:
+![Text Wrap](img/text_wrap.md)
 
-Text Wrap - allows breaking a long text into several lines. Text wraps automatically to fit the column width 
+##Clear formatting
 
+If you want to discard the applied formatting, click the **Clear** button in the **Edit** section and select *Clear styles*.
 
-
-Cells Merging - this option is presented in detail below.
-
+![Clear format](img/clear_formatting.md)
 
 
 ## Merging Cells 
 
-Cells merging allows you to combine several cells into one large cell. Thus, you can add 
-a common header for several columns. Have a look at the example below:
+Cells merging allows you to center some text by combining neighboring cells into one large cell. 
 
- 
+![Merge Button](img/merge_cells.md)
 
-Here cells A1-F1 are merged into one cell to add a common label Report - July 2016 to describe data in the rows 2-5.
+For example, you can add a common header for several columns. Have a look at the example below:
 
-To merge several adjacent cells to create a common header:
+![Table Header](img/merging_cells.md) 
 
-1. Copy data from the cells you want to merge into some other place on the sheet, since it will be deleted after merging.
+Here cells A1-F1 are merged to add a common label *Report - July 2016* to describe data in the rows 2-5.
 
-2. Select the cells and click the Merge button:
+To merge several adjacent cells to create a common header, you need to:
 
- 
+1. Copy data from the cells you want to merge into some other place on the sheet, since it will be deleted after merging. 
+
+2. Select the necessary cells and click the **Merge** button.
 
 3. Double-click the new big cell and type the desired text.
 
-In case, you need to split the cells back, just click the button for a second time. The content of the merged cell will be moved into the top left cell.
+To split the cells back, just click the button for a second time. The content of the merged cell will be moved into the top left cell.
 

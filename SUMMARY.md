@@ -3,6 +3,7 @@
 * [SpreadSheet Basics](basics.md)
 * [Working with Sheets](work_with_sheets.md)	
 * [Excel Import/Export](excel_import_export.md)
+* [Printing Interface](print_content.md)
 * [Formatting Text and Cells](formatting_cells.md)
 * Setting the Number Format
 	* Creating Custom Format
