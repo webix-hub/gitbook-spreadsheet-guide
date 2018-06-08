@@ -5,8 +5,7 @@
 * [Excel Import/Export](excel_import_export.md)
 * [Printing Interface](print_content.md)
 * [Formatting Text and Cells](formatting_cells.md)
-* Setting the Number Format
-	* Creating Custom Format
+* [Formatting Numbers](formatting_numbers.md)
 * Editing Cells
 	* Sorting Data
 	* Filtering

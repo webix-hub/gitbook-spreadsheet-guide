@@ -14,13 +14,13 @@ There is a set of buttons that allow you to modify the default formatting and ap
 
 There are several options for aligning content of a cell:
 
-- Horizontal alignment: **Left/Center/Right**
+- Horizontal alignment: **Left align/Center align/Right align**
 
-![Horizontal Text Alignment](img/horizontal_alignment.png)
+![Horizontal Align](img/horizontal_alignment.png)
 
-- Vertical alignment: **Top/Middle/Bottom**
+- Vertical alignment: **Top align/Middle align/Bottom align**
 
-![Vertical Text Alignment](img/vertical_alignment.png)
+![Vertical Align](img/vertical_alignment.png)
 
 - Text wrapping
 
@@ -28,16 +28,22 @@ This option allows breaking a long text into several lines to make all the text 
 
 ![Text Wrap](img/text_wrap.png)
 
-##Clear formatting
+##Clear Formatting
 
-If you want to discard the applied formatting, click the **Clear** button in the **Edit** section and select *Clear styles*.
+You can discard the applied formatting in two ways:
 
-![Clear format](img/clear_formatting.png)
+1. To remove formatting from all the styled cells, click the **Clear** button in the **Edit** section and select *Clear styles*.
+
+![Clear All Formatting](img/clear_formatting.png)
+
+2. To clear formatting applied to a particular cell, right-click the cell to call the context menu and choose the *Clear styles* option:
+
+![Clear Cell Formatting](img/clear_default_cell_format.png)
 
 
 ## Merging Cells 
 
-Cells merging allows you to center some text by combining neighboring cells into one large cell. 
+Cells merging allows you to combine neighboring cells into one large cell. 
 
 ![Merge Button](img/merge_cells.png)
 
@@ -54,6 +60,8 @@ To merge several adjacent cells to create a common header, you need to:
 2. Select the necessary cells and click the **Merge** button.
 
 3. Double-click the new big cell and type the desired text.
+
+4. Apply *Center align* to the cell to center the text.
 
 To split the cells back, just click the button for a second time. The content of the merged cell will be moved into the top left cell.
 
