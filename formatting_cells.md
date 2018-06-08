@@ -32,11 +32,11 @@ This option allows breaking a long text into several lines to make all the text 
 
 You can discard the applied formatting in two ways:
 
-1. To remove formatting from all the styled cells, click the **Clear** button in the **Edit** section and select *Clear styles*.
+1) To remove formatting from all the styled cells, click the **Clear** button in the **Edit** section and select *Clear styles*.
 
 ![Clear All Formatting](img/clear_formatting.png)
 
-2. To clear formatting applied to a particular cell, right-click the cell to call the context menu and choose the *Clear styles* option:
+2) To clear formatting applied to a particular cell, right-click the cell to call the context menu and choose the *Clear styles* option:
 
 ![Clear Cell Formatting](img/clear_default_cell_format.png)
 
