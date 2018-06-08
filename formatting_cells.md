@@ -16,34 +16,34 @@ There are several options for aligning content of a cell:
 
 - Horizontal alignment: **Left/Center/Right**
 
-![Horizontal Text Alignment](img/horizontal_alignment.md)
+![Horizontal Text Alignment](img/horizontal_alignment.png)
 
 - Vertical alignment: **Top/Middle/Bottom**
 
-![Vertical Text Alignment](img/vertical_alignment.md)
+![Vertical Text Alignment](img/vertical_alignment.png)
 
 - Text wrapping
 
 This option allows breaking a long text into several lines to make all the text visible. Text wraps automatically to fit the column width.
 
-![Text Wrap](img/text_wrap.md)
+![Text Wrap](img/text_wrap.png)
 
 ##Clear formatting
 
 If you want to discard the applied formatting, click the **Clear** button in the **Edit** section and select *Clear styles*.
 
-![Clear format](img/clear_formatting.md)
+![Clear format](img/clear_formatting.png)
 
 
 ## Merging Cells 
 
 Cells merging allows you to center some text by combining neighboring cells into one large cell. 
 
-![Merge Button](img/merge_cells.md)
+![Merge Button](img/merge_cells.png)
 
 For example, you can add a common header for several columns. Have a look at the example below:
 
-![Table Header](img/merging_cells.md) 
+![Table Header](img/merging_cells.png) 
 
 Here cells A1-F1 are merged to add a common label *Report - July 2016* to describe data in the rows 2-5.
 
