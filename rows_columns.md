@@ -167,7 +167,7 @@ To freeze a column:
 
 1) Select the column you want to freeze by clicking its header.
 
-*The column D will be frozen*
+*The column C will be frozen*
 
 ![Selecting a Column to Freeze](img/column_to_freeze.png)
 

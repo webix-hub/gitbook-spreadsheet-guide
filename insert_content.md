@@ -49,7 +49,8 @@ You can add images into SpreadSheet cells to make your documents more illustrati
 To add an image into a cell:
 
 1) Select a cell to insert an image inside.
-2) Click the **Image** button
+
+2) Click the **Image** button.
 
 ![Image Button](img/add_image_button.png)
 

@@ -8,7 +8,7 @@ After that, the blue headers that contain numbers to specify rows and letters to
 
 ![Hidden Headers](img/hidden_headers.png)
 
-To show the headers again, click **the Hide/show headers** button again.
+To show the headers again, click the **Hide/show headers** button again.
 
 ## Hiding/Showing Grid Lines 
 

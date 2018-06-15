@@ -19,6 +19,7 @@ You can sort data in a selected range of cells in both ascending and descending 
 Or:
 
 1) Right-click the cell/cells with data to be sorted to call the context menu.
+
 2) Select *Sort*->*Sort A to Z*, or *Sort*->*Sort Z to A* option, depending on the desired sorting direction.
 
 ![Sorting via Context Menu](img/sort_via_menu.png)
@@ -58,7 +59,9 @@ The image below shows a table filtered by the *Europe* option from the filter.
 To remove a filter/filters:
 
 1) Select a cell/cells with filter/filters.
+
 2) Click the **Clear** button in the **Edit** section of the toolbar.
+
 3) Select the *Clear dropdowns and filters* option in the dropdown list.
 
 ![Clear Filters via Toolbar](img/clear_formatting.png)
@@ -66,6 +69,7 @@ To remove a filter/filters:
 Or:
 
 1) Right-click the cell/cells with filter/filters to call the context menu.
+
 2) Select *Clear*->*Dropdowns and filters*.
 
 ![Clear Filters via Context Menu](img/clear_conditional_format.png)
@@ -82,6 +86,7 @@ In the example below, cells the values of which are greater than 800 are highlig
 To apply specific styling to cells, depending on their values:
 
 1) Select the range of cells you want to format.
+
 2) Click the **Conditional format** button on the toolbar. 
 
 ![Conditional Format Button](img/conditional_format_button.png)     
@@ -102,12 +107,14 @@ To apply specific styling to cells, depending on their values:
 >Pay attention that in case some of conditions intersect, only the last of them will be applied.
 
 
-### Removing a conditional format
+### Removing conditional formatting
 
 To remove the applied formatting from formatted cells:
 
 1) Select the necessary cell/cells.
+
 2) Click the **Clear** button in the **Edit** section of the toolbar.
+
 3) Select the *Clear styles* option in the dropdown list.
 
 ![Clear Conditional Formatting via Toolbar](img/clear_formatting.png)
@@ -115,6 +122,7 @@ To remove the applied formatting from formatted cells:
 Or:
 
 1) Right-click the necessary cell/cells to call the context menu.
+
 2) Select *Clear*->*Conditional formats*.
 
 ![Clear Conditional Formatting via Context Menu](img/clear_conditional_format.png)
@@ -144,6 +152,7 @@ It is possible to add a link to an external resource as a cell value.
 There are two options for that:
 
 1) Select a cell to add a link into.
+
 2) Click the **Add link** button:         
                  
 ![Adding Link via Toolbar](img/add_link_button.png)          
@@ -156,7 +165,7 @@ Or right-click the cell and select the **Add link** option in the context menu.
 
 ![Add Link Popup](img/add_link_popup.png)
 
-4) Click the**Save** button to apply changes.
+4) Click the **Save** button to apply changes.
 
 ## Adding a Dropdown Menu (Editor) into a Cell
 
@@ -167,6 +176,7 @@ You can add a dropdown menu with arbitrary options into a cell of a sheet.
 It's really easy to do:
 
 1) Select a cell to add a dropdown menu into.
+
 2) Click the **Add dropdown** button in the **Edit** section.
 
 ![Add Dropdown](img/add_cell_editor.png)     
