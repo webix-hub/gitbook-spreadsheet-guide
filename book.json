@@ -1,0 +1,7 @@
+{   "title": "Webix SpreadSheet User Guide",
+    "description": "This is a user guide for Webix SpreadSheet, a widget for creating tables and performing operations on their data and appearance with Webix UI library",
+    "plugins": [
+        "hints"
+    ],
+    "pluginsConfig": {}
+}

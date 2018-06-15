@@ -10,6 +10,7 @@ To differentiate between types of numbers, you can apply the corresponding forma
 To apply a number format to cell values:
 
 1) Select a cell or a range of cells to format
+
 2) Click the **Number format** button to open a dropdown list with number formats:
 
 ![Number Format Button](img/number_format_button.png)
@@ -86,12 +87,18 @@ That's how the cell's contents are formatted after the format is applied to them
 
 ##Clear Formatting
 
-You can remove the applied formatting in two ways:
+You can discard the applied formatting in two ways:
 
-1) To remove the applied formatting from all the styled cells, click the **Clear** button in the **Edit** section and select *Clear styles*:
+1) Select the necessary cell/cells.
+2) Click the **Clear** button in the **Edit** section of the toolbar.
+3) Select the *Clear styles* option in the dropdown list.
 
-![Clear Format](img/clear_formatting.png)
+![Clear Formatting via Toolbar](img/clear_formatting.png)
 
-2) To clear formatting applied to a particular cell, right-click the cell to call the context menu and choose the *Clear styles* option:
+Or:
 
-![Clear Cell Formatting](img/clear_custom_cell_format.png)
+1) Right-click the necessary cell/cells to call the context menu.
+2) Select *Clear*->*Styles*.
+
+![Clear Cell Formatting via Context Menu](img/clear_custom_cell_format.png)
+

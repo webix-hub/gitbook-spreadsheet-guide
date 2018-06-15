@@ -6,27 +6,10 @@
 * [Printing Interface](print_content.md)
 * [Formatting Text and Cells](formatting_cells.md)
 * [Formatting Numbers](formatting_numbers.md)
-* Editing Cells
-	* Sorting Data
-	* Filtering
-	* Conditional Cells Formatting
-	* Locking a Cell
-	* Adding Link into a Cell
-	* Creating a Dropdown Menu
-* Inserting Sparklines and Images
-	* Adding Sparklines
-	* Adding Images
-* Hiding/Showing Headers and Gridlines
-	* Hiding/Showing Rows and Columns Headers
-	* Hiding/Showing Grid Lines (Cells Borders)
-* Working with Rows and Columns
-	* Inserting/Deleting Rows
-	* Hiding/Showing Rows
-	* Inserting/Deleting Columns
-	* Hiding/Showing Columns
-	* Frozen Columns and Rows
-		* Freezing Rows
-		* Freezing Columns
-* Using Formulas for Math Calculations
-	* Adding Named Range
+* [Editing Cells](edit_cells.md)
+* [Inserting Sparklines and Images](insert_content.md)	
+* [Hiding/Showing Headers and Gridlines](hide_show_gridlines.md)
+* [Working with Rows and Columns](rows_columns.md)
+* [Using Formulas for Math Calculations]()
+	
 

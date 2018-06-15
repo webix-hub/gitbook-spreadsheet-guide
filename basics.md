@@ -1,10 +1,7 @@
 ## Entering Data
 
 - To enter data into SpreadSheet, click an empty cell. 
-
-A cell reference is defined as an intersection of a column and a row. For example, a cell A1 is located on the intersection of the 1st row and the A column.
-
-- Enter a text or a number into a cell.
+- Type a text or a number in a cell and then press **Enter** or **Tab**.
 
 ## Navigation in a Sheet
 
@@ -26,7 +23,7 @@ Useful keyboard shortcuts for navigation in Spreadsheet:
 
 ## Cancelling/Repeating Actions
 
-- To undo recent changes, click the Undo button.
-- To reapply changes once again, click the Redo button.
+- To undo recent changes, click the **Undo** button.
+- To reapply changes once again, click the **Redo** button.
 
 ![Undo/Redo buttons](img/undo_redo_buttons.png)

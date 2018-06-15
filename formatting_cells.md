@@ -32,13 +32,18 @@ This option allows breaking a long text into several lines to make all the text 
 
 You can discard the applied formatting in two ways:
 
-1) To remove formatting from all the styled cells, click the **Clear** button in the **Edit** section and select *Clear styles*.
+1) Select the necessary cell/cells.
+2) Click the **Clear** button in the **Edit** section of the toolbar.
+3) Select the *Clear styles* option in the dropdown list.
 
-![Clear All Formatting](img/clear_formatting.png)
+![Clear Formatting via Toolbar](img/clear_formatting.png)
 
-2) To clear formatting applied to a particular cell, right-click the cell to call the context menu and choose the *Clear styles* option:
+Or:
 
-![Clear Cell Formatting](img/clear_default_cell_format.png)
+1) Right-click the necessary cell/cells to call the context menu.
+2) Select *Clear*->*Styles*.
+
+![Clear Cell Formatting via Context Menu](img/clear_default_cell_format.png)
 
 
 ## Merging Cells 
