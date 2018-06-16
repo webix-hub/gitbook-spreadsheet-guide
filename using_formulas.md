@@ -128,7 +128,7 @@ To add a named range:
 
 3) Click the **Save** button to save a new range. It will appear in the list of ranges in the left part of the popup.
 
-![Saving New Named Range](img/saved_new_range.png)
+![Saving New Named Range](img/saved_named_range.png)
 
 ### Using Named Range in Formulas
 

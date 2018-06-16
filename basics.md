@@ -3,7 +3,7 @@
 - To enter data into SpreadSheet, click an empty cell. 
 - Type a text or a number in a cell and then press **Enter** or **Tab**.
 
-## Navigation in a Sheet
+## Navigation in SpreadSheet
 
 Useful keyboard shortcuts for navigation in Spreadsheet:
 

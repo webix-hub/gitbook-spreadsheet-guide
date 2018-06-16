@@ -75,58 +75,6 @@ Or:
 ![Clear Filters via Context Menu](img/clear_conditional_format.png)
 
 
-## Conditional Cells Formatting 
-
-You can set a special format for a cell/cells the values of which correspond to a particular condition or several conditions at once. 
-
-In the example below, cells the values of which are greater than 800 are highlighted in the light orange color. The cells with values less than 8000 are colored in green and their font color changed to yellow:
-
-![Formatted Cells](img/conditional_formatting_result.png)
-
-To apply specific styling to cells, depending on their values:
-
-1) Select the range of cells you want to format.
-
-2) Click the **Conditional format** button on the toolbar. 
-
-![Conditional Format Button](img/conditional_format_button.png)     
-
-3) In the opened popup set the conditions (you can set up to three of them at once):
-
-- Use the style selector to choose how the cell will look when conditions are met.
-- Choose the condition for comparison (>, <, =, *not equal*, or *between*). 
-- Add the number/numbers to compare with.
-
-![Conditional Format Popup](img/conditional_format_popup.png)    
-
-
-4) Click the **Apply** button.
-
->####Note
->
->Pay attention that in case some of conditions intersect, only the last of them will be applied.
-
-
-### Removing conditional formatting
-
-To remove the applied formatting from formatted cells:
-
-1) Select the necessary cell/cells.
-
-2) Click the **Clear** button in the **Edit** section of the toolbar.
-
-3) Select the *Clear styles* option in the dropdown list.
-
-![Clear Conditional Formatting via Toolbar](img/clear_formatting.png)
-
-Or:
-
-1) Right-click the necessary cell/cells to call the context menu.
-
-2) Select *Clear*->*Conditional formats*.
-
-![Clear Conditional Formatting via Context Menu](img/clear_conditional_format.png)
-
 
 ## Locking a Cell
 
