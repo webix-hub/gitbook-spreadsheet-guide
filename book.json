@@ -1,7 +1,15 @@
 {   "title": "Webix SpreadSheet User Guide",
     "description": "This is a user guide for Webix SpreadSheet, a widget for creating tables and performing operations on their data and appearance with Webix UI library",
     "plugins": [
-        "hints"
+        "hints",
+        "callouts",
+        "comments"
     ],
-    "pluginsConfig": {}
+    "pluginsConfig": {},
+    "styles": {
+        "website": "styles/website.css",
+        "pdf": "styles/print.css",
+        "mobi": "styles/print.css",
+        "epub": "styles/print.css"
+    }
 }
