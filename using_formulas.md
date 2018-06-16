@@ -1,19 +1,18 @@
 Webix SpreadSheet supports simple math expressions and allows making calculations with the help of formulas.
+The following elements are allowed in formulas:
+
+- numbers
+- basic mathematical operators, which are: +, -, /, *
+- comparison operators: **<**, **>**, **<=**, **>=**, **<>**, **=**
+- the **&** operator for connecting two or more text strings into a single text
+- cell references
+- Excel-like functions
 
 ## Entering a Formula
 
 To enter a formula into a cell:
 
 1) Type the **=** sign in a cell to start the formula.
-
-The following elements are allowed in formulas:
-
-- basic mathematical operators, which are: +, -, /, *
-- comparison operators: **<**, **>**, **<=**, **>=**, **<>**, **=**
-- the **&** operator for string concatenation
-- numbers
-- cell references
-- Excel-like functions
 
 2) Type a combination of numbers and math operators:
 
@@ -24,9 +23,11 @@ The following elements are allowed in formulas:
 
 For example: =8+5, =8-5, =8*5, =8/5.
 
-You can also enter any Excel function after the "=" symbol. You can find the full list of functions below. 
+You can also enter any Excel function after the "=" symbol.  
 
 For example: =SUM(C2:D2).
+
+You can find the full list of functions below.
 
 3) Press the **Enter** button to get the result of formula calculation.
 
@@ -112,7 +113,7 @@ To add a named range:
 
 1) Choose one of the ways below:
 
-- Click the **Named Ranges** button.
+- Click the **Named Ranges** button in the **Edit** section.
 
 ![Named Ranges Button](img/named_ranges_button.png)
 
@@ -120,7 +121,10 @@ To add a named range:
 
 ![Named Range Option](img/named_range_context_option.png)
 
-2) In the opened popup specify the desired name and select the range of cell references that the range should include.
+2) In the opened popup specify the desired name and add cells that will be included in the range in one of the ways below:
+
+- Type the reference to the range as a pair of the starting and ending cells as A2:A5
+- Select a range of cells in a sheet and the reference will appear in the input automatically
 
 *Adding a range named Total for cells F2-F4*
 
@@ -132,15 +136,15 @@ To add a named range:
 
 ### Using Named Range in Formulas
 
-After a named range is added into a list, you can use it as an argument in a function/formula. The image below shows how the Total range for cells F2-F4 is used in the SUM function:
+After a named range is added into a list, you can use it as an argument in a function/formula. The image below shows how the *Total*range for cells F2-F4 is used in the *SUM* function:
 
 ![Using Named Range in Function](img/using_named_range.png)
 
-The values of the cells F2-F4 are summed up.
+As a result, the values of the cells F2-F4 are summed up.
 
 ![Result of Using Named Range in Function](img/named_range_result.png)
 
-## Editing Named Range
+### Editing Named Range
 
 To make changes in an existing named range:
 
@@ -148,9 +152,9 @@ To make changes in an existing named range:
 
 ![Named Ranges Button](img/named_ranges_button.png)
 
-2) Choose the necessary action in the opened popup with the list of ranges. 
+2) Apply the necessary action by clicking the corresponding icon in the line with the named range in question: 
 
-- To edit the range, click the "pencil" icon, related to this range.
-- To delete the range, click the corresponding "basket" icon.
+- To edit the range, click the "pencil" icon.
+- To delete the range, click the "basket" icon.
 
 ![Editing Icons for Named Range](img/named_range_edit_icons.png)

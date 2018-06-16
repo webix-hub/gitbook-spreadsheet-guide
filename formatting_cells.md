@@ -1,18 +1,18 @@
 ## Font Settings
 
-There is a set of buttons that allow you to modify the default formatting and apply new font color, style and size as well as change the appearance of a cell - set the background color and apply a new type and color for borders. 
+There is a set of buttons in the **Font** section that allow you to modify the default formatting and apply new font color, style and size as well as change the appearance of a cell - set the background color and apply a new type and color for borders. 
 
 ![Format of Cells](img/formatting_cells.png)
 
 - To apply a different font, click **Font family** and select a suitable font from the list
-- To change the size of font, click **Font size** and choose the size you need
-- You can make the content of the cell bold, italic or underlined with the help of the corresponding buttons
+- To change the size of a font, click **Font size** and choose the size you need
+- To make the content of the cell bold, italic or underlined, use the corresponding buttons
 - To change the font and background colors, use color pickers attached to the related buttons
 - To style and color cell borders, make use of the **Borders** button
 
 ##Aligning Cell Content
 
-There are several options for aligning content of a cell:
+There are several options for aligning the content of a cell:
 
 - Horizontal alignment: **Left align/Center align/Right align**
 
