@@ -102,9 +102,9 @@ To apply specific styling to cells, depending on their values:
 
 4) Click the **Apply** button.
 
->####Note
->
->Pay attention that in case some of conditions intersect, only the last of them will be applied.
+####Note
+
+<!---Pay attention that in case some of conditions intersect, only the last of them will be applied.--->
 
 
 ### Removing conditional formatting
