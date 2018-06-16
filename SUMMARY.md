@@ -10,6 +10,6 @@
 * [Inserting Sparklines and Images](insert_content.md)	
 * [Hiding/Showing Headers and Gridlines](hide_show_gridlines.md)
 * [Working with Rows and Columns](rows_columns.md)
-* [Using Formulas for Math Calculations]()
+* [Using Formulas for Math Calculations](using_formulas.md)
 	
 

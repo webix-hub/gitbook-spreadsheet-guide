@@ -4,7 +4,6 @@ It is possible to import data from an Excel file into a sheet of SpreadSheet. Cl
 
 ![Import from Excel](img/import_from_excel.png)
 
-
 And choose an Excel file from the content of which you want to export into SpreadSheet from your computer. Its data will be displayed in the current sheet.
 
 ## Export to Excel
