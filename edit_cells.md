@@ -28,7 +28,7 @@ In the image below the range is sorted in the ascending order. Pay attention tha
 
 ![Sorted Column](img/sorted_range_of_cells.png)
 
-## Filtering Data 
+## Adding Filters and Dropdown Lists into Cells
 
 ### Adding a filter
 
@@ -60,11 +60,35 @@ The image below shows a table filtered by the *Europe* option from the filter.
 
 ![Filtered Table](img/filtered_sheet.png)
 
-### Removing filters
+### Adding a dropdown list 
+
+You can add a dropdown list with arbitrary options into a cell of a sheet.
+
+![Adding Dropdown List](img/add_cell_editor.png)
+
+It's really easy to do:
+
+1) Select a cell to add a dropdown menu into.
+
+2) Click the **Add dropdown** button in the **Edit** section.
+
+![Add Dropdown](img/add_cell_editor.png)     
+
+3) In the appeared popup add the range of cells the values of which will be used as options of the dropdown menu.
+There are two ways for that:
+
+- Type the reference to the range as a pair of the starting and ending cells as A2:A5
+- Select a range of cells in a sheet and the reference will appear in the input automatically
+
+![Add Dropdown Popup](img/dropdown_popup.png)     
+
+4) Click the **Save** button to add a dropdown list into a cell.
+
+### Removing filters and dropdown lists
 
 To remove a filter/filters:
 
-1) Select a cell/cells with filter/filters.
+1) Select cells with filters/dropdown lists.
 
 2) Click the **Clear** button in the **Edit** section of the toolbar.
 
@@ -74,9 +98,11 @@ To remove a filter/filters:
 
 Or:
 
-1) Right-click the cell/cells with filter/filters to call the context menu.
+1) Select cells with filters/dropdown lists.
 
-2) Select *Clear*->*Dropdowns and filters*.
+2) Right-click the selected cell/cells to call the context menu.
+
+3) Select *Clear*->*Dropdowns and filters*.
 
 ![Clear Filters via Context Menu](img/clear_dropdowns_filters_option.png)
 
@@ -123,26 +149,4 @@ To insert a link into a cell:
 
 4) Click the **Save** button to apply changes.
 
-## Adding a Dropdown List into a Cell
 
-You can add a dropdown list with arbitrary options into a cell of a sheet.
-
-![Adding Dropdown List](img/add_cell_editor.png)
-
-It's really easy to do:
-
-1) Select a cell to add a dropdown menu into.
-
-2) Click the **Add dropdown** button in the **Edit** section.
-
-![Add Dropdown](img/add_cell_editor.png)     
-
-3) In the appeared popup add the range of cells the values of which will be used as options of the dropdown menu.
-There are two ways for that:
-
-- Type the reference to the range as a pair of the starting and ending cells as A2:A5
-- Select a range of cells in a sheet and the reference will appear in the input automatically
-
-![Add Dropdown Popup](img/dropdown_popup.png)     
-
-4) Click the **Save** button to add a dropdown list into a cell.

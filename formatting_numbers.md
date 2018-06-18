@@ -7,38 +7,38 @@ To differentiate between types of numbers, you can apply a corresponding format 
 - *Number* - a format to display a number with delimited tens, hundreds and thousands
 - *Percent* - a format to display a number as percentage (%)
 
-![Applying Default Number Format](img/currency_number_format.png)
+![Applying Currency Number Format](img/currency_number_format.png)
 
 To apply a number format to cell values:
 
 1) Select a cell or a range of cells to format.
 
-2) Click the **Number format** button to open a dropdown list with number formats:
+2) Click the **Number format** button in the **Number** section to open a dropdown list with number formats:
 
 ![Number Format Button](img/number_format_button.png)
 
 3) Choose the necessary format that will be applied to the selected cells:
 
-![Default Format Options](img/number_format_options.png)
+![Default Number Format Options](img/number_format_options.png)
 
 ##Custom Number Format
 
-If you feel limited by the embedded number formats, you can create your own format. The added format should consist of up to 4 sections of code, separated by semicolons (;). 
+If you feel limited by the embedded number formats, you can create your own format. 
 
-![Set Format Popup](img/custom_format_popup.png)
+![Custom Number Formatting](img/custom_format_result.png)
 
-Each code section can include:
+The added format should consist of up to 4 sections of code, separated by semicolons (;). Each code section can include:
 
 - a condition to compare a cell value with
 - a necessary format for a cell
 - a style that will be applied to a cell 
 - a text that should be displayed in a cell
 
-The details are given in the section **Custom Format Rules**.
-
 For example:
 
-[>1000][red];[>100][green]0.0;[blue] Small
+`[>1000][red];[>100][green]0.0;[blue] Small`
+
+The details are given in the section **Custom Format Rules**.
 
 ###How to Apply
 
@@ -56,16 +56,12 @@ To set a custom format to cell values:
 
 For example, for the selected cells in a spreadsheet:
 
-![Selecting Cells for Formatting](img/custom_format_cells.png)
+![Custom Number Formatting](img/custom_format_result.png)
 
 The following custom format patterns are applied:
 
 1. For the cells **B2** and **C2**: *[>1000]> 0.0;[>100]Check 0,000.0#;[=0]Nope;*
 2. For the cell **B3**: *[>1000][red];[>100][green]0.0;[blue] Small;*
-
-And the result is shown below:
-
-![Selecting Cells for Formatting](img/custom_format_result.png)
 
 ###Custom Format Rules
 
@@ -75,7 +71,7 @@ The code sections of the custom number format are set according to the rules giv
 
 To apply a format to a number only if it meets the specified condition, place this condition inside of square brackets as in:
 
-[>1000]> 0.0;
+`[>1000]> 0.0;`
 
 2) **Format**
 
@@ -83,17 +79,19 @@ To apply a particular custom number format to the value of a formatted cell, def
 	- are separated by decimal or thousand separators
 	- have additional 0 after the separator to display insignificant zeros or # to ignore them
 
+`[>100]0,000.00`
+
 3) **Colors**
 
 To define a color for a particular section of a format, put the desired color name into square brackets as follows:
 
-[>1000][red];[>100][green]0.0;
+`[>1000][red];[>100][green]0.0;`
 
 4) **Text**
 
-In case you need to add text into some section, you can type it as it is. The only requirement is that text should go last in a section:
+In case you need to add text into some section, you can type it as it is. The only requirement is that text should go last in a section, like this:
 
-[>1000][red];[>100][green]0.0;[blue] Small
+`[>1000][red];[>100][green]0.0;[blue] Small`
 
 
 ####Significant digits, decimal and thousands separators

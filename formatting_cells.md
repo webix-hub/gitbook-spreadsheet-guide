@@ -12,23 +12,23 @@ There is a set of buttons in the **Font** section that allow you to modify the d
 
 ##Aligning Cell Content
 
-You align the content of a cell in several ways.
+You can align the content of a cell in several ways.
 
 - To align cell content **horizontally**:
-	- Click the **Horizontal align** button
+	- Click the **Horizontal align** button in the **Align** section
 	- Select the necessary type of horizontal alignment: **Left align/Center align/Right align**
 
 ![Horizontal Align](img/horizontal_alignment.png)
 
 - To align cell content **vertically**: 
-	- Click the **Vertical align** button
+	- Click the **Vertical align** button in the **Align** section
 	- Select the necessary type of vertical alignment: **Top align/Middle align/Bottom align**
 
 ![Vertical Align](img/vertical_alignment.png)
 
 - To wrap long text to present it on multiple lines in a cell:
 	- Select the cell with text you want to wrap
-	- Click the **Text wrap** button
+	- Click the **Text wrap** button in the **Align** section
 
 ![Text Wrap](img/text_wrap.png)
 
@@ -38,7 +38,7 @@ Text is wrapped automatically to fit the column width.
 
 You can discard the applied formatting in two ways:
 
-1) Select the necessary cell/cells.
+1) Select necessary cell/cells with formatting.
 
 2) Click the **Clear** button in the **Edit** section of the toolbar.
 
@@ -48,9 +48,11 @@ You can discard the applied formatting in two ways:
 
 Or:
 
-1) Right-click the necessary cell/cells to call the context menu.
+1) Select necessary cell/cells with formatting.
 
-2) Select *Clear*->*Styles*.
+2) Right-click the selected cell/cells to call the context menu.
+
+3) Select *Clear*->*Styles*.
 
 ![Clear Cell Formatting via Context Menu](img/clear_default_cell_format.png)
 
