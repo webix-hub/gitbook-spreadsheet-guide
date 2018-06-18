@@ -4,36 +4,44 @@ There is a set of buttons in the **Font** section that allow you to modify the d
 
 ![Format of Cells](img/formatting_cells.png)
 
-- To apply a different font, click **Font family** and select a suitable font from the list
-- To change the size of a font, click **Font size** and choose the size you need
-- To make the content of the cell bold, italic or underlined, use the corresponding buttons
-- To change the font and background colors, use color pickers attached to the related buttons
-- To style and color cell borders, make use of the **Borders** button
+- To apply a different font, click **Font family** and select a suitable font from the list.
+- To change the size of a font, click **Font size** and choose the size you need.
+- To make the content of the cell bold, italic or underlined, use the corresponding buttons.
+- To change the font and background colors, use color pickers attached to the related buttons.
+- To style and color cell borders, make use of the **Borders** button.
 
 ##Aligning Cell Content
 
-There are several options for aligning the content of a cell:
+You align the content of a cell in several ways.
 
-- Horizontal alignment: **Left align/Center align/Right align**
+- To align cell content **horizontally**:
+	- Click the **Horizontal align** button
+	- Select the necessary type of horizontal alignment: **Left align/Center align/Right align**
 
 ![Horizontal Align](img/horizontal_alignment.png)
 
-- Vertical alignment: **Top align/Middle align/Bottom align**
+- To align cell content **vertically**: 
+	- Click the **Vertical align** button
+	- Select the necessary type of vertical alignment: **Top align/Middle align/Bottom align**
 
 ![Vertical Align](img/vertical_alignment.png)
 
-- Text wrapping
-
-This option allows breaking a long text into several lines to make all the text visible. Text wraps automatically to fit the column width.
+- To wrap long text to present it on multiple lines in a cell:
+	- Select the cell with text you want to wrap
+	- Click the **Text wrap** button
 
 ![Text Wrap](img/text_wrap.png)
+
+Text is wrapped automatically to fit the column width.
 
 ##Clear Formatting
 
 You can discard the applied formatting in two ways:
 
 1) Select the necessary cell/cells.
+
 2) Click the **Clear** button in the **Edit** section of the toolbar.
+
 3) Select the *Clear styles* option in the dropdown list.
 
 ![Clear Formatting via Toolbar](img/clear_formatting.png)
@@ -41,6 +49,7 @@ You can discard the applied formatting in two ways:
 Or:
 
 1) Right-click the necessary cell/cells to call the context menu.
+
 2) Select *Clear*->*Styles*.
 
 ![Clear Cell Formatting via Context Menu](img/clear_default_cell_format.png)
@@ -50,25 +59,32 @@ Or:
 
 Cells merging allows you to combine neighboring cells into one large cell. 
 
-![Merge Button](img/merge_cells.png)
-
 For example, you can add a common header for several columns. Have a look at the example below:
+
+*Merging cells A1-D1 to make a header for a table*
 
 ![Table Header](img/merging_cells.png) 
 
-Here cells A1-F1 are merged to add a common label *Report - July 2016* to describe data in the rows 2-5.
+To merge several adjacent cells, you need to:
 
-To merge several adjacent cells to create a common header, you need to:
+1) Copy data from the cells you want to merge into some other place on the sheet, since it will be deleted after merging. 
 
-1. Copy data from the cells you want to merge into some other place on the sheet, since it will be deleted after merging. 
+2) Select the necessary cells and click the **Merge** button in the **Align** section.
 
-2. Select the necessary cells and click the **Merge** button.
+![Merge Button](img/merge_cells_button.png)
 
-3. Double-click the new big cell and type the desired text.
+3) Double-click the new big cell and type the desired text.
 
-4. Apply *Center align* to the cell to center the text.
+4) Optionally, click the **Horizontal align** button and apply *Center align* to the cell to center the text.
 
-To split the cells back, just click the button for a second time. The content of the merged cell will be moved into the top left cell.
+![Centering Text](img/centre_align.png)
+
+### Splitting Merged Cell
+
+To split a merged cell:
+
+- Select the merged cell that should be split into several cells.
+- Click the **Merge** button.
 
 ## Conditional Cells Formatting 
 
@@ -82,18 +98,17 @@ To apply specific styling to cells, depending on their values:
 
 1) Select the range of cells you want to format.
 
-2) Click the **Conditional format** button on the toolbar. 
+2) Click the **Conditional format** button in the **Edit** section of the toolbar. 
 
 ![Conditional Format Button](img/conditional_format_button.png)     
 
 3) In the opened popup set the conditions (you can set up to three of them at once):
 
-- Use the style selector to choose how the cell will look when conditions are met.
-- Choose the condition for comparison (>, <, =, *not equal*, or *between*). 
-- Add the number/numbers to compare with.
+- Use the style selector to decide on what the cell will look like when conditions are met.
+- Choose a condition for comparison (>, <, =, *not equal*, or *between*). 
+- Add the value to compare with.
 
 ![Conditional Format Popup](img/conditional_format_popup.png)    
-
 
 4) Click the **Apply** button.
 
@@ -104,20 +119,22 @@ To apply specific styling to cells, depending on their values:
 
 ### Removing conditional formatting
 
-To remove the applied formatting from formatted cells:
+To remove conditional formatting from formatted cells:
 
-1) Select the necessary cell/cells.
+1) Select necessary cell/cells.
 
 2) Click the **Clear** button in the **Edit** section of the toolbar.
 
-3) Select the *Clear styles* option in the dropdown list.
+3) Select the *Clear conditional formats* option in the dropdown list.
 
-![Clear Conditional Formatting via Toolbar](img/clear_formatting.png)
+![Clear Conditional Formatting via Toolbar](img/clear_cond_format_button.png)
 
 Or:
 
-1) Right-click the necessary cell/cells to call the context menu.
+1) Select necessary cell/cells.
 
-2) Select *Clear*->*Conditional formats*.
+2) Right-click the selected cell/cells with conditional formatting to call the context menu.
 
-![Clear Conditional Formatting via Context Menu](img/clear_conditional_format.png)
+3) Select *Clear*->*Conditional formats*.
+
+![Clear Conditional Formatting via Context Menu](img/clear_conditional_format_option.png)
