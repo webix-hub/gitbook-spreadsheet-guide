@@ -35,7 +35,7 @@ You can find the full list of functions below.
 
 SpreadSheet can work with the Excel functions. Below you'll find the full list of functions with detailed descriptions.
 
-###Math functions
+###Math Functions
 
 - **ABS** - returns the absolute value of a number. The absolute value of a number is the number without its sign.
 - **AVERAGE** - returns the average (arithmetic mean) of the arguments;
@@ -84,7 +84,7 @@ Treats array entries that are not numeric as if they were zeros.
 - **VARP** - calculates variance based on the entire population;
  - empty cells, logical values, text, or error values in the array or reference are ignored.
 
-<h3 id="string_functions">String functions</h3>
+###String Functions
 
 - **CONCATENATE** (A1,B2, C2:D4) - joins several text items into one text item.
 - **LEFT** (text, count) - returns the first character or characters (leftmost) in a text string, based on the number of characters you specify.
@@ -96,7 +96,7 @@ Treats array entries that are not numeric as if they were zeros.
 - **TRIM** (text) - removes spaces from text.
 - **UPPER** (text) - converts text to uppercase.
 
-###Other functions
+###Other Functions
 
 - **IMAGE** (url) - displays an image the URL of which is set as a parameter of the function
 - **SPARKLINE** (range, type, color1, color2) - draws a sparkline according to the specified parameters

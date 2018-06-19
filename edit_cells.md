@@ -30,7 +30,7 @@ In the image below the range is sorted in the ascending order. Pay attention tha
 
 ## Adding Filters and Dropdown Lists into Cells
 
-### Adding a filter
+### Adding a Filter
 
 You can add filters for cells of a column. While selecting an option in the added filter, the whole grid data will be filtered according to the value of this option.
 
@@ -60,7 +60,7 @@ The image below shows a table filtered by the *Europe* option from the filter.
 
 ![Filtered Table](img/filtered_sheet.png)
 
-### Adding a dropdown list 
+### Adding a Dropdown List 
 
 You can add a dropdown list with arbitrary options into a cell of a sheet.
 
@@ -84,7 +84,7 @@ There are two ways for that:
 
 4) Click the **Save** button to add a dropdown list into a cell.
 
-### Removing filters and dropdown lists
+### Removing Filters and Dropdown Lists
 
 To remove a filter/filters:
 

@@ -105,7 +105,7 @@ Or:
 To delete a column:
 
 1. Select the column you want to delete by clicking on its header. 
-2. Click the **Columns** button in the **View** section to open the dropdown menu and choose the **Delete** column option.
+2. Click the **Columns** button in the **View** section to open the dropdown menu and choose the *Delete column* option.
 
 ![Delete Column via Columns Button](img/delete_column_option.png)
 
@@ -144,6 +144,8 @@ To show a hidden column, follow one of the ways below:
 2. Click the **Columns** button to open the dropdown menu and choose the *Show column* option.
 
 ![Show Column via Columns Button](img/show_column_option.png)
+
+Or:
 
 1. Right-click the column to left or to the right of the hidden one.
 2. Select *Show column* in the context menu.

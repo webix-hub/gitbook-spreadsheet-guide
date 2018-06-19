@@ -1,12 +1,9 @@
-Webix SpreadSheet allows you to print the contents of a sheet, several sheets at once or even particular cells.
-There are various settings provided to help you print your document in the desired format.
+Webix SpreadSheet allows you to print the contents of the current sheet, all the sheets at once or even particular cells.
+There are various settings provided to help you print your document in the desired format. It is also possible to print to a file instead of right to a printer. 
 
-It is also possible to print to a file instead of to a printer. This feature is helpful in case you need to print the 
-document on a different printer, not your habitual one.
+##Print Dialog Window
 
-##Print Dialog
-
-Before starting to print, you should check your preferences in the pring dialog window. 
+Before starting to print, you should check your preferences in the print dialog window. 
 
 To call the print dialog:
 
@@ -16,13 +13,13 @@ To call the print dialog:
 
 - Use the **Ctrl+P** hot keys. 
 
-In the appeared printing dialog you can decide on some common options, select the appropriate size of paper and select layout size and orientation.
+In the appeared printing dialog you can decide on some common options, select the appropriate size and orientation of paper and the size of the content.
 
-![Print Dialog](img/print_dialog.png)
+![Print Dialog Window](img/print_dialog.png)
 
 ## General Settings
 
-### Select Printing Area
+### Select What Data to Print
 
 You can specify what part of the spreadsheet you want to print by selecting one of the available options:
 
@@ -37,24 +34,24 @@ There are additional printing parameters. You can check just one, or all of them
 - *Show sheet names* - render the names of sheets for each table 
 - *Hide gridlines* - remove borders of datatable cells
 - *Skip empty rows* - skip empty rows within the datatable 
-- *Hide margins* - hide margins for printed pages (set them to 0)
+- *Hide margins* - hide margins for printed pages 
 
 ##Paper Size
 
-There are three predefined sizes of paper the resulting print should fit in:
+There are three predefined sizes of paper you can choose from:
 
 - Letter 
 - A4 (210x297mm)
 - A3 (297x420mm)
 
-##Layout Apperance
+##Layout Appearance
 
-For layout you can set two types of settings:
+For the page layout you can set two types of settings:
 
-- Size of the content that can be equal to:
+- *Size of the content* that can be equal to:
 	- Page width
 	- Actual size
 
-- Paper orientation
+- *Paper orientation* which can be set as:
 	- Portrait
 	- Landscape

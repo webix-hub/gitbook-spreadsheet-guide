@@ -119,7 +119,7 @@ To apply specific styling to cells, depending on their values:
 >Pay attention that in case some of conditions intersect, only the last of them will be applied.
 
 
-### Removing conditional formatting
+### Removing Conditional Formatting
 
 To remove conditional formatting from formatted cells:
 
