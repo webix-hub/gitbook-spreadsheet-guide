@@ -2,7 +2,7 @@
 
 To differentiate between types of numbers, you can apply a corresponding format to them. There are the following formats available:
 
-- *Common* - no formatting
+- *Common* - no formatting applied
 - *Currency* - a format to display a number as currency ($)
 - *Number* - a format to display a number with delimited tens, hundreds and thousands
 - *Percent* - a format to display a number as percentage (%)
@@ -31,7 +31,7 @@ You can customize the predefined formats in the following ways:
 
 To customize a predefined number format:
 
-1) Select a cell or a range of cells to apply a custom format to.
+1) Select a cell or a range of cells to apply custom format to.
 
 2) Click the **Number format** button in the **Number** section: 
 
@@ -60,7 +60,7 @@ To set a custom format to cell values:
 3) In the appeared popup:
 
 - Specify a custom format pattern and press **Enter** or click outside the input to preview result.
-- Click **Save** to apply the custom format to the cell/cells value(s).
+- Click **Save** to apply the specified format pattern to the cell/cells value(s).
 
 ![Custom Format Pattern](img/custom_format_settings.png)
 
@@ -111,7 +111,7 @@ To apply a particular custom number format to the value of a formatted cell, def
 
 3) **Colors**
 
-To specify the color for a section of the format, type the name of one of the available colors (*green*, *red*, *blue*, *orange*, *black*, *violet* or *magenta*) enclosed in square brackets in the section. The color code must be the second item in the section (after the condition).
+To specify some color for a section of the format, type the name of one of the available colors (*green*, *red*, *blue*, *orange*, *black*, *violet* or *magenta*) enclosed in square brackets in the section. The color code must be the second item in the section (after the condition).
 
 `[>1000][red];[>100][green]0.0;`
 
@@ -151,5 +151,5 @@ Or:
 
 3) Select *Clear*->*Styles*.
 
-![Clear Cell Formatting via Context Menu](img/clear_custom_cell_format.png)
+![Clear Cell Formatting via Context Menu](img/clear_custom_number_format.png)
 
