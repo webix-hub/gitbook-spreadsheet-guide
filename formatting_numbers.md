@@ -43,6 +43,16 @@ To customize a predefined number format:
 
 4) Define settings for the chosen format and click **Save**.
 
+###Increasing/decreasing Decimal Places
+
+To increase/descrease decimal places:
+
+1) Select the necessary cell with a decimal number value.
+
+2) Click the corresponding button - *Increase decimal places* or *Decrease decimal places* in the **Number** section:
+
+![Increase/Decrease Decimal Places](img/inc_dec_decimal_btns.png)
+
 ##Custom Number Format
 
 If you feel limited by the embedded number formats, you can create your own format. 

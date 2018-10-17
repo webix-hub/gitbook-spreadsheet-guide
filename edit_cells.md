@@ -149,4 +149,68 @@ To insert a link into a cell:
 
 4) Click the **Save** button to apply changes.
 
+## Adding Image in a Cell
 
+You can add an image into a cell to illustrate data in the spreadsheet.
+
+To insert an image into a cell:
+
+1) Select a cell to add an image into.
+
+2) Click the **Image** button in the **Insert** section:
+
+![Adding Image](img/image_button.png)
+
+3) In the appeared popup insert a link to the image or select a file from the computer:
+
+![Add Image Popup](img/add_image_popup.png)
+
+4) Click the **Save** button to apply changes.
+
+## Adding Sparkline in a Cell
+
+You can add a graph (sparkline) into a cell to display tendencies of data values changing in a range of cells.
+
+To insert a graph into a cell:
+
+1) Select a cell to add a graph into.
+
+2) Click the **Graph** button in the **Insert** section:
+
+![Adding Sparkline](img/graph_button.png)
+
+3) In the appeared popup enter sparkline configuration:
+
+- choose the type of the line
+- set the cell range 
+- select the color of the graph (except for the Pie type) or two colors (for positive and negative values) for the Bar type
+
+![Add Sparkline Popup](img/add_graph_popup.png)
+
+4) Click the **Save** button to apply changes.
+
+## Adding Comments in a Cell
+
+You can add comments for a cell. To insert comments into a cell:
+
+1) Select a cell to add comments into.
+
+2) Choose one of the following options:     
+
+- Click the **Comment** button in the **Insert** section:
+
+![Adding Comments](img/comments_button.png)
+
+- Right-click a cell and select the **Comment** option in the context menu.
+
+![Adding Comment via Context Menu](img/add_comment_option.png)
+
+3) In the appeared popup enter a text of the comment:
+
+![Add Comments Popup](img/add_comment_text.png)
+
+4) Click any cell outside the textarea to save the comment.
+
+You can change the size of the comment popup by dragging the resizer handle in the right bottom corner.
+
+![Resize Comment Popup](img/comment_resizer.png)
