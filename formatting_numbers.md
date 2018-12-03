@@ -23,7 +23,7 @@ To apply some of the default number formats to a cell value:
 
 ![Default Number Format Options](.gitbook/assets/number_format_options.png)
 
-### Customizing Default Formats
+### Customizing default formats
 
 You can customize the predefined formats in the following ways:
 
@@ -45,7 +45,7 @@ To customize a predefined number format:
 
 4\) Define settings for the chosen format and click **Save**.
 
-### Increasing/decreasing Decimal Places
+### Increasing/decreasing decimal places
 
 To increase/decrease decimal places:
 
@@ -102,7 +102,7 @@ The following custom format patterns are applied:
 1. For the cells **B2**-**C2**: _\[&gt;1000\]&gt; 0.0;\[&gt;100\]\[orange\]Check 0,000.0\#_
 2. For the cell **B3**-**D3**: _\[&gt;1000\]\[red\];\[&gt;700\]\[green\]0.0;\[blue\]Small_
 
-### Custom Format Rules
+### Custom format rules
 
 The code sections of the custom number format are set according to the rules given below:
 
@@ -138,6 +138,9 @@ In case you need to add text into some section, you can type it as it is. The on
 * **0 \(zero\)** - the digit placeholder to display insignificant zeros, if a number has fewer digits than there are zeros in the format. For example, to display **4** as **4.0**, use the format **0.0**.
 * **\#** - the digit placeholder to display only significant numbers \(not to display extra zeros when the number has fewer digits than there are **\#** symbols in the format\).
 * **?** - works the same as 0 \(zero\), but adds a space for insignificant zeros on either side of the decimal point so that decimal points are aligned in the column.
+
+The decimal and thousands separators are taken from the applied locale. By default they are:
+
 * **.** \(period\) - the digit placeholder to display the decimal point in a number.
 * **,** \(comma\) - the digit placeholder to display the thousands separator in a number.
 
