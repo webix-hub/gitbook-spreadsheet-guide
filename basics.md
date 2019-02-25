@@ -5,6 +5,17 @@
 * To enter data into SpreadSheet, click an empty cell. 
 * Type a text or a number in a cell and then press **Enter** or **Tab**.
 
+## Selecting Multiple Cells
+
+You can select several cells in one of the two ways:
+
+1. By clicking the first cell and dragging the cursor to the last cell;
+2. By clicking the first cell, then pressing Shift and clicking the last cell.
+
+To select all cells, click the triangle in the top left corner.
+
+![Selecting All Cells](.gitbook/assets/select_all.gif)
+
 ## Keyboard Shortcuts in SpreadSheet
 
 ### Windows OS

@@ -38,6 +38,12 @@ The related sheet will be deleted. Note that the names of other sheets won't be 
 
 ![Remove Active Sheet](.gitbook/assets/remove_active_sheet.png)
 
+## Reordering Sheets
+
+You can reorder sheets by dragging tabs in the bottom left corner of the widget.
+
+![Reorder Sheets](.gitbook/assets/reorder_sheet.gif)
+
 ## Copying Sheet Content
 
 You can copy data of a sheet and create a new sheet with the same content.
