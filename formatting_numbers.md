@@ -35,7 +35,7 @@ To customize a predefined number format:
 
 1\) Select a cell or a range of cells to apply custom format to.
 
-2\) Click the **Number format** button in the **Number** section:
+2\) Click the **Number format** button in the **Number** section and select the _Custom_ option:
 
 ![Custom Format Option](.gitbook/assets/custom_format_option.png)
 
@@ -152,7 +152,7 @@ You can discard the applied formatting in two ways:
 
 2\) Click the **Clear** button in the **Edit** section of the toolbar.
 
-3\) Select the _Clear styles_ option in the dropdown list.
+3\) Select the _Clear styles_ option in the drop-down list.
 
 ![Clear Formatting via Toolbar](.gitbook/assets/clear_formatting.png)
 
