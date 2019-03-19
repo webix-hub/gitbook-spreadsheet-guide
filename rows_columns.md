@@ -15,7 +15,7 @@ It is possible to insert a new empty row into spreadsheet. A new row is added ab
 To insert an empty row, follow one of the ways below:
 
 1. Select the row above which you want to insert an empty one - just click on its header.
-2. Click the **Rows** button in the **View** section to open a dropdown menu and choose the _Insert row_ option.
+2. Click the **Rows** button in the **View** section to open a drop-down menu and choose the _Insert row_ option.
 
 ![Insert Row via Rows Button](.gitbook/assets/insert_row_option.png)
 
@@ -31,7 +31,7 @@ Or:
 To delete a row, follow one of the ways below:
 
 1. Select the row you want to delete. 
-2. Click the **Rows** button in the **View** section to open a dropdown menu and choose the _Delete row_ option.
+2. Click the **Rows** button in the **View** section to open a drop-down menu and choose the _Delete row_ option.
 
 ![Delete Row via Rows Button](.gitbook/assets/delete_row_option.png)
 
@@ -51,7 +51,7 @@ The hidden row is marked as a bold line between the headers of the rows above an
 To hide a row, follow one of the ways below:
 
 1. Select the row you want to hide by clicking on its header.
-2. Click the **Rows** button in the **View** section to open the dropdown menu and choose the _Hide row_ option.
+2. Click the **Rows** button in the **View** section to open the drop-down menu and choose the _Hide row_ option.
 
 ![Hide Row via Rows Button](.gitbook/assets/hide_row_option.png)
 
@@ -67,7 +67,7 @@ Or:
 To show a hidden row, follow one of the ways below:
 
 1. Select either the row above or below of the hidden one. 
-2. Click the **Rows** button in the **View** section to open the dropdown menu and choose the _Show row_ option.
+2. Click the **Rows** button in the **View** section to open the drop-down menu and choose the _Show row_ option.
 
 ![Show Row via Rows Button](.gitbook/assets/show_row_option.png)
 
@@ -89,7 +89,7 @@ You can insert an empty column into spreadsheet. A new column is added to the le
 To insert an empty column:
 
 1. Select the column to the left of which you want to insert an empty one - just click on its header.
-2. Click the **Columns** button in the **View** section to open the dropdown menu and select the _Insert column_ option.
+2. Click the **Columns** button in the **View** section to open the drop-down menu and select the _Insert column_ option.
 
 ![Insert Column via Columns Button](.gitbook/assets/insert_column_option.png)
 
@@ -105,7 +105,7 @@ Or:
 To delete a column:
 
 1. Select the column you want to delete by clicking on its header. 
-2. Click the **Columns** button in the **View** section to open the dropdown menu and choose the _Delete column_ option.
+2. Click the **Columns** button in the **View** section to open the drop-down menu and choose the _Delete column_ option.
 
 ![Delete Column via Columns Button](.gitbook/assets/delete_column_option.png)
 
@@ -125,7 +125,7 @@ You can hide a column and show it again, when needed. The hidden column is marke
 To hide a column, follow one of the ways below:
 
 1. Select the column you want to hide by clicking on its header. 
-2. Click the **Columns** button in the **View** section to open the dropdown menu. Choose the _Hide column_ option.
+2. Click the **Columns** button in the **View** section to open the drop-down menu. Choose the _Hide column_ option.
 
 ![Hide Column via Columns Button](.gitbook/assets/hide_column_option.png)
 
@@ -141,7 +141,7 @@ Or:
 To show a hidden column, follow one of the ways below:
 
 1. Select either the column to the left or to the right of the hidden one. 
-2. Click the **Columns** button to open the dropdown menu and choose the _Show column_ option.
+2. Click the **Columns** button to open the drop-down menu and choose the _Show column_ option.
 
 ![Show Column via Columns Button](.gitbook/assets/show_column_option.png)
 

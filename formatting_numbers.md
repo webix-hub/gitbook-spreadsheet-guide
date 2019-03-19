@@ -15,7 +15,7 @@ To apply some of the default number formats to a cell value:
 
 1\) Select a cell or a range of cells to format.
 
-2\) Click the **Number format** button in the **Number** section to open a dropdown list with number formats:
+2\) Click the **Number format** button in the **Number** section to open a drop-down list with number formats:
 
 ![Number Format Button](.gitbook/assets/number_format_button.png)
 
@@ -136,7 +136,7 @@ In case you need to add text into some section, you can type it as it is. The on
 #### Significant digits, decimal and thousands separators
 
 * **0 \(zero\)** - the digit placeholder to display insignificant zeros, if a number has fewer digits than there are zeros in the format. For example, to display **4** as **4.0**, use the format **0.0**.
-* **\#** - the digit placeholder to display only significant numbers \(not to display extra zeros when the number has fewer digits than there are **\#** symbols in the format\).
+* **\#** - the digit placeholder to display only significant numbers \(not to display extra zeros when a number has fewer digits than there are **\#** symbols in the format\).
 * **?** - works the same as 0 \(zero\), but adds a space for insignificant zeros on either side of the decimal point so that decimal points are aligned in the column.
 
 The decimal and thousands separators are taken from the applied locale. By default they are:
