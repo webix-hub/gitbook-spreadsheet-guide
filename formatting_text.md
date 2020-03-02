@@ -2,8 +2,8 @@
 
 For text, there are these formats available:
 
-- *Common* - no formatting applied
-- *Text* - a format for text (no special rules except that zeros at the beginning of the cell contents are not removed unlike the Number format)
+- *Common* - whenever possible, the value will be formatted as a number; otherwise as text
+- *Text* - no special formatting, the text will be displayed as is
 
 To apply the default text format to a cell value:
 
