@@ -82,8 +82,8 @@ A custom format may consist of several code sections, separated by semicolons \(
 
 * **\[condition\]** in square brackets - e.g. \[&gt;1000\], to compare the cell value with
 * **\[color\]** in square brackets - e.g. \[blue\]
-* **format** as a set of zeros \(e.g. 0.0;\) 
-* **text** - e.g. Text, that should be displayed in this cell
+* **format** as a set of zeros \(e.g. 0.0;\)
+* **text** - e.g. Text, that should be displayed in this cell (in "" to make sure it will be interpreted as text)
 
 > #### Note
 >
@@ -91,7 +91,7 @@ A custom format may consist of several code sections, separated by semicolons \(
 
 For example:
 
-`[>1000][red];[>100][green]0.0;[blue] Small`
+`[>1000][red];[>100][green]0.0;[blue] "Small"`
 
 In the spreadsheet below:
 
@@ -100,7 +100,7 @@ In the spreadsheet below:
 The following custom format patterns are applied:
 
 1. For the cells **B2**-**C2**: _\[&gt;1000\]&gt; 0.0;\[&gt;100\]\[orange\]Check 0,000.0\#_
-2. For the cell **B3**-**D3**: _\[&gt;1000\]\[red\];\[&gt;700\]\[green\]0.0;\[blue\]Small_
+2. For the cell **B3**-**D3**: _\[&gt;1000\]\[red\];\[&gt;700\]\[green\]0.0;\[blue\]"Small"_
 
 ### Custom format rules
 
@@ -131,7 +131,7 @@ To specify some color for a section of the format, type the name of one of the a
 
 In case you need to add text into some section, you can type it as it is. The only requirement is that text should go last in a section, like this:
 
-`[>1000][red];[>100][green]0.0;[blue] Small`
+`[>1000][red];[>100][green]0.0;[blue] "Small"`
 
 #### Significant digits, decimal and thousands separators
 
