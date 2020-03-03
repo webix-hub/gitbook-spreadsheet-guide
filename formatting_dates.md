@@ -4,17 +4,17 @@ For dates, there is the *Date* format.
 
 To apply the date format to a cell value:
 
-1) Select a cell or a range of cells to format.
-2) Click the **Date format** button in the Number section to open a drop-down list with number formats.
-3) Choose the necessary format that will be applied to the selected cells.
+1) Select a cell or a range of cells to format.<br>
+2) Click the **Date format** button in the Number section to open a drop-down list with number formats.<br>
+3) Choose the necessary format that will be applied to the selected cells.<br>
 
 ## Customizing the Default Date Format
 
 You can choose one of the predefined date and time formats:
 
-1) Select a cell or a range of cells to format.
-2) Click the **Date format** button in the Number section to open a drop-down list with number formats and select the **Date** option.
-3) Select **Date**.
+1) Select a cell or a range of cells to format.<br>
+2) Click the **Date format** button in the Number section to open a drop-down list with number formats and select the **Date** option.<br>
+3) Select **Date**.<br>
 4) Select the format:
 
 ![Date Format Settings](img/default_date_formats.png)
@@ -25,9 +25,9 @@ You can customize the predefined Date formats.
 
 To customize a predefined date format:
 
-1) Select a cell or a range of cells to apply custom format to.
-2) Click the format button in the **Number** section and select the **Custom** option.
-3) Select **Custom**.
+1) Select a cell or a range of cells to apply custom format to.<br>
+2) Click the format button in the **Number** section and select the **Custom** option.<br>
+3) Select **Custom**.<br>
 4) Edit the date format line:
 
 ![Custom Date Format](img/custom_date_format.png)
