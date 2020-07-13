@@ -12,4 +12,5 @@
 * [Working with Sheets](work_with_sheets.md)
 * [Excel Import/Export](excel_import_export.md)
 * [Printing Interface](print_content.md)
+* [Working with embedded Charts and Images](work_with_views.md)
 
