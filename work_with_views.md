@@ -8,7 +8,7 @@ To add a view to SpreadSheet click the **Image** button (or **Graphs** for chart
 
 ![Add Image](.gitbook/assets/add_image.png)
 
-After that select an image to upload or provide a configuration for a new chart via the dialog for editing.
+After that select an image to upload or provide a configuration for the new chart via the dialog for editing.
 
 ## Working with Charts
 
