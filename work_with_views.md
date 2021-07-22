@@ -44,8 +44,9 @@ In the **Series** tab you can:
 1. Specify the range for a series 
 2. Choose an appropriate color from a color picker
 3. Enable or disable tooltips for markers
-4. Define the markers shape 
-5. Delete a series or add a new line
+4. Enable or disable labels for markers
+6. Define the markers shape 
+6. Delete a series or add a new line
 
 ![Series Tab](.gitbook/assets/chart_series.png)
 
@@ -65,11 +66,20 @@ It is also possible to specify the *horizontal* and *vertical alignment* of the 
 
 #### Tuning Axes
 
-To define the data source for the X-axis type the range of the cells to get data from in the traditional **Range** field.
+To define the data source for the X-axis type the range of the cells to get data from in the dedicated **Range** field.
 
-You can also provide *titles* for both X and Y-axes, enable the *background grid* and choose its *color* through the corresponding controls on the panel.
+You can also provide *titles* for both X and Y-axes.
 
 ![Background Lines are Colored Purple](.gitbook/assets/chart_lines_color.png)
+
+Apart from the *Title* field mentioned above the Y-Axis has the following configurable options on its own:
+
+1. Origin - the scale origin on the Y-axis
+2. Start - the minimum value of the scale on the Y-Axis
+3. End - the maximum value of the scale on the Y-Axis
+4. Step - the scale step on the Y-Axis.
+
+![Y-Axis specific settings in use](.gitbook/assets/yaxis-specific-settings.png)
 
 ## Downloading Views
 
