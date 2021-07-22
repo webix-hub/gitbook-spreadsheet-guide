@@ -26,7 +26,7 @@ To export data to Excel:
 
 ![Export to Excel Popup](.gitbook/assets/export_to_excel_popup.png)
 
-3\) Сlick **Save** to save the file.
+3\) Click **Save** to save the file.
 
 A new Excel file with exported data will be downloaded to your computer.
 
