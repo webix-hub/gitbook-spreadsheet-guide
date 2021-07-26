@@ -1,23 +1,24 @@
 # Formatting Dates
 
-For dates, there is the *Date* format.
+For dates, there is the _Date_ format.
 
 To apply the date format to a cell value:
 
-1) Select a cell or a range of cells to format.<br>
-2) Click the **Date format** button in the Number section to open a drop-down list with number formats.<br>
-3) Choose the necessary format that will be applied to the selected cells.<br>
+1\) Select a cell or a range of cells to format.  
+ 2\) Click the **Date format** button in the Number section to open a drop-down list with number formats.  
+ 3\) Choose the necessary format that will be applied to the selected cells.  
+
 
 ## Customizing the Default Date Format
 
 You can choose one of the predefined date and time formats:
 
-1) Select a cell or a range of cells to format.<br>
-2) Click the **Date format** button in the Number section to open a drop-down list with number formats and select the **Date** option.<br>
-3) Select **Date**.<br>
-4) Select the format:
+1\) Select a cell or a range of cells to format.  
+ 2\) Click the **Date format** button in the Number section to open a drop-down list with number formats and select the **Date** option.  
+ 3\) Select **Date**.  
+ 4\) Select the format:
 
-![Date Format Settings](img/default_date_formats.png)
+![Date Format Settings](.gitbook/assets/default_date_formats.png)
 
 ## Custom Date Format
 
@@ -25,40 +26,41 @@ You can customize the predefined Date formats.
 
 To customize a predefined date format:
 
-1) Select a cell or a range of cells to apply custom format to.<br>
-2) Click the format button in the **Number** section and select the **Custom** option.<br>
-3) Select **Custom**.<br>
-4) Edit the date format line:
+1\) Select a cell or a range of cells to apply custom format to.  
+ 2\) Click the format button in the **Number** section and select the **Custom** option.  
+ 3\) Select **Custom**.  
+ 4\) Edit the date format line:
 
-![Custom Date Format](img/custom_date_format.png)
+![Custom Date Format](.gitbook/assets/custom_date_format.png)
 
 An example of a format line:
 
-```
+```text
 mm/dd/yyyy hh:mm
 ```
 
 These are the allowed characters for a date format string:
 
 * the date part:
-	* "yy" - the year as a two-digit number (00 to 99);
-	* "yyyy" - the year as a four-digit number (1900–9999);
-	* "m" - the month as a number without a leading zero (1 to 12);
-	* "mm" - the month as a number with a leading zero (01 to 12);
-	* "mmm" - the month as an abbreviation (Jan to Dec);
-	* "mmmm" - the month as a full name (January to December);
-	* "mmmmm" - not supported by Webix, but interpreted as "mmmm"
-	* "d" - the day as a number without a leading zero (1 to 31);
-	* "dd" - the day as a number with a leading zero (01 to 31);
-	* "ddd" - the day as an abbreviation (Sun to Sat);
-	* "dddd" - the day as a full name (Sunday to Saturday);
+  * "yy" - the year as a two-digit number \(00 to 99\);
+  * "yyyy" - the year as a four-digit number \(1900–9999\);
+  * "m" - the month as a number without a leading zero \(1 to 12\);
+  * "mm" - the month as a number with a leading zero \(01 to 12\);
+  * "mmm" - the month as an abbreviation \(Jan to Dec\);
+  * "mmmm" - the month as a full name \(January to December\);
+  * "mmmmm" - not supported by Webix, but interpreted as "mmmm"
+  * "d" - the day as a number without a leading zero \(1 to 31\);
+  * "dd" - the day as a number with a leading zero \(01 to 31\);
+  * "ddd" - the day as an abbreviation \(Sun to Sat\);
+  * "dddd" - the day as a full name \(Sunday to Saturday\);
 * the time part:
-	* "h" - the hour based on the 24-hour clock (0 to 23);
-	* "hh" - the hour based on the 24-hour clock with a leading zero (00 to 23);
-	* "m"- not supported by Webix, but interpreted as "mm"
-	* "mm" - the minute as a number with a leading zero (00 to 59);
-	* "s" - not supported by Webix, but interpreted as "ss"
-	* "ss" - the second as a number with a leading zero (00 to 59);
-	* "AM/PM" - displays AM (for times from midnight until noon) and PM (for times from noon until midnight).
+  * "h" - the hour based on the 24-hour clock \(0 to 23\);
+  * "hh" - the hour based on the 24-hour clock with a leading zero \(00 to 23\);
+  * "m"- not supported by Webix, but interpreted as "mm"
+  * "mm" - the minute as a number with a leading zero \(00 to 59\);
+  * "s" - not supported by Webix, but interpreted as "ss"
+  * "ss" - the second as a number with a leading zero \(00 to 59\);
+  * "AM/PM" - displays AM \(for times from midnight until noon\) and PM \(for times from noon until midnight\).
 
-5) To apply the new format, click **Save**.
+5\) To apply the new format, click **Save**.
+

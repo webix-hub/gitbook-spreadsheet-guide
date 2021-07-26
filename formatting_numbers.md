@@ -83,7 +83,7 @@ A custom format may consist of several code sections, separated by semicolons \(
 * **\[condition\]** in square brackets - e.g. \[&gt;1000\], to compare the cell value with
 * **\[color\]** in square brackets - e.g. \[blue\]
 * **format** as a set of zeros \(e.g. 0.0;\)
-* **text** - e.g. Text, that should be displayed in this cell (in "" to make sure it will be interpreted as text)
+* **text** - e.g. Text, that should be displayed in this cell \(in "" to make sure it will be interpreted as text\)
 
 > #### Note
 >

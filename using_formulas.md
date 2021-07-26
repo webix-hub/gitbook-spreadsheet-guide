@@ -112,7 +112,7 @@ SpreadSheet can work with the Excel functions. Below you'll find the full list o
 * **DATE** \(year, month, day\) - creates a valid Excel date from a year, a month, and a day
 * **TIME** \(hour, minute, second\) - creates a valid Excel time from hours, minutes, and seconds
 * **DAY** \(date\) - returns the day of the month from the given Excel date
-* **MONTH** \(date\) - returns the number of the month from the given Excel date (counting from 1)
+* **MONTH** \(date\) - returns the number of the month from the given Excel date \(counting from 1\)
 * **YEAR** \(date\) - returns the year from the given Excel date
 * **NOW** \(\) - returns the current date
 * **DATEDIF** \(start, end, unit\) - returns the difference between two dates in years, months, or days. The available units are:
@@ -121,7 +121,7 @@ SpreadSheet can work with the Excel functions. Below you'll find the full list o
   * "D" - in days
   * "MD" - in days, ignoring months and years
   * "YM" - in months, ignoring days and years
-  - "YD" - in days, ignoring years
+  * "YD" - in days, ignoring years
 
 ### Other Functions
 
@@ -163,7 +163,7 @@ _Adding a range named Total for cells F2-F4_
 
 ### Using Named Range in Formulas
 
-After a named range is added into a list, you can use it as an argument in a function/formula. The image below shows how the _Total_range for cells F2-F4 is used in the _SUM_ function:
+After a named range is added into a list, you can use it as an argument in a function/formula. The image below shows how the _Total\_range for cells F2-F4 is used in the \_SUM_ function:
 
 ![Using Named Range in Function](.gitbook/assets/using_named_range.png)
 
