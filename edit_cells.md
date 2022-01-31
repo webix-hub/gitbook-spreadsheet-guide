@@ -34,28 +34,9 @@ To **paste** the copied/cut cell(s), you should take the following steps:
 
 You can also paste a cell via the **"**_Ctrl+V / Command+V_**"** shortcut.
 
-When you copy or move the cell(s), you also copy or move styles, applied formulas, and conditional formats with it. To copy or move these elements separately, you can use a **special paste.**
+When you copy or move the cell(s), you also copy or move styles, applied formulas, and conditional formats with it.&#x20;
 
-### **Special Pasting**
-
-The widget allows you to perform a **special paste.** In this case, you can paste the following elements into the cell:
-
-* **values** - paste only the values from the copied cell(s)
-* **formulas** - paste only formulas, without values
-* **styles** - paste only cell styles
-* **conditional formats** - paste only the conditional formats.
-
-To perform the **special paste**, you should take the following steps:
-
-1\) Copy a cell or a range of cells.
-
-2\) Select the cell you want to paste into.
-
-3\) Right-click on it and select the **Special paste** option in the context menu.
-
-4\) Select the paste option you need.
-
-![Special Paste](.gitbook/assets/special\_paste.png)
+****
 
 ## Sorting Data in a Range
 
