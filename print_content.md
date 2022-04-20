@@ -10,13 +10,13 @@ To call the print dialog:
 
 * Click the **Print** button.
 
-![Print Button](.gitbook/assets/print_button.png)
+![Print Button](.gitbook/assets/print\_button.png)
 
-* Use the **Ctrl+P** hot keys. 
+* Use the **Ctrl+P** hot keys.&#x20;
 
 In the appeared printing dialog you can decide on some common options, select the appropriate size and orientation of paper and the size of the content.
 
-![Print Dialog Window](.gitbook/assets/print_dialog.png)
+![Print Dialog Window](.gitbook/assets/spreadsheat\_beforeprint.png)
 
 ## General Settings
 
@@ -24,7 +24,7 @@ In the appeared printing dialog you can decide on some common options, select th
 
 You can specify what part of the spreadsheet you want to print by selecting one of the available options:
 
-* _Current sheet_ - all data from the current sheet 
+* _Current sheet_ - all data from the current sheet&#x20;
 * _All sheets_ - all data from all sheets
 * _Selected cells_ - selected data from the current sheet
 
@@ -32,18 +32,19 @@ You can specify what part of the spreadsheet you want to print by selecting one 
 
 There are additional printing parameters. You can check just one, or all of them, or ingore those settings.
 
-* _Show sheet names_ - render the names of sheets for each table 
+* _Show sheet names_ - render the names of sheets for each table&#x20;
 * _Hide gridlines_ - remove borders of datatable cells
-* _Skip empty rows_ - skip empty rows within the datatable 
-* _Hide margins_ - hide margins for printed pages 
+* _Skip empty rows_ - skip empty rows within the datatable&#x20;
+* _Hide margins_ - hide margins for printed pages&#x20;
+* _External UI_ - allows you to print data from the additional views of the page
 
 ## Paper Size
 
 There are three predefined sizes of paper you can choose from:
 
-* Letter 
-* A4 \(210x297mm\)
-* A3 \(297x420mm\)
+* Letter&#x20;
+* A4 (210x297mm)
+* A3 (297x420mm)
 
 ## Layout Appearance
 
@@ -55,4 +56,3 @@ For the page layout you can set two types of settings:
 * _Paper orientation_ which can be set as:
   * Portrait
   * Landscape
-
