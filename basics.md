@@ -46,18 +46,19 @@ To select all cells, click the triangle in the top left corner.
 
 ### Mac OS
 
-| Use this shortcut   | To do this                            |
-| ------------------- | ------------------------------------- |
-| **Command+C**       | Copy the content of a cell.           |
-| **Command+V**       | Paste the content of a cell.          |
-| **Command+Z**       | Undo an action.                       |
-| **Command+Shift+Z** | Redo an action.                       |
-| **Command+A**       | Select all cells in a sheet.          |
-| **Command+B**       | Make the selected text bold.          |
-| **Command+I**       | Make the selected text italic.        |
-| **Command+U**       | Make the selected text underlined.    |
-| **Command+Shift+X** | Make the selected text strikethrough. |
-| **Command+P**       | Call the print dialog window.         |
+| Use this shortcut   | To do this                                |
+| ------------------- | ----------------------------------------- |
+| **Command+C**       | Copy the content of a cell.               |
+| **Command+V**       | Paste the content of a cell.              |
+| **Command+Z**       | Undo an action.                           |
+| **Command+Shift+Z** | Redo an action.                           |
+| **Command+A**       | Select all cells in a sheet.              |
+| **Command+B**       | Make the selected text bold.              |
+| **Command+I**       | Make the selected text italic.            |
+| **Command+U**       | Make the selected text underlined.        |
+| **Command+Shift+X** | Make the selected text strikethrough.     |
+| **Command+P**       | Call the print dialog window.             |
+| **Command+\`**      | Show formulas in cells instead of values. |
 
 ## Canceling/Repeating Actions
 
