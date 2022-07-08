@@ -16,7 +16,7 @@ To call the print dialog:
 
 In the appeared printing dialog you can decide on some common options, select the appropriate size and orientation of paper and the size of the content.
 
-![Print Dialog Window](.gitbook/assets/spreadsheat\_beforeprint.png)
+![](.gitbook/assets/spreadsheet\_print.png)
 
 ## General Settings
 
@@ -24,8 +24,7 @@ In the appeared printing dialog you can decide on some common options, select th
 
 You can specify what part of the spreadsheet you want to print by selecting one of the available options:
 
-* _Current sheet_ - all data from the current sheet&#x20;
-* _All sheets_ - all data from all sheets
+* _Sheets_ - allows you to select which sheets to print
 * _Selected cells_ - selected data from the current sheet
 
 ### Check Extra Options
