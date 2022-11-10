@@ -10,15 +10,23 @@ To call the print dialog:
 
 * Click the **Print** button.
 
-![Print Button](.gitbook/assets/print\_button.png)
+<figure><img src=".gitbook/assets/print_button.png" alt=""><figcaption><p>Print Button</p></figcaption></figure>
 
 * Use the **Ctrl+P** hot keys.&#x20;
 
 In the appeared printing dialog you can decide on some common options, select the appropriate size and orientation of paper and the size of the content.
 
-![](.gitbook/assets/spreadsheet\_print.png)
+<figure><img src=".gitbook/assets/before_you_print_window.png" alt=""><figcaption><p>Before you print</p></figcaption></figure>
 
 ## General Settings
+
+### Hide\show print borders
+
+To show print borders, click the **Hide\show print borders** button. To hide print them**,** click this button again.
+
+<figure><img src=".gitbook/assets/print_hide_printing_borders_button.png" alt=""><figcaption><p>Hide\show print borders Button</p></figcaption></figure>
+
+Also you can show print borders by clicking the **Show print borders** button in the print dialog window.
 
 ### Select What Data to Print
 
@@ -52,6 +60,10 @@ For the page layout you can set two types of settings:
 * _Size of the content_ that can be equal to:
   * Page width
   * Actual size
-* _Paper orientation_ which can be set as:
-  * Portrait
-  * Landscape
+*   _Paper orientation_ which can be set as:
+
+    * Portrait
+    * Landscape
+
+
+
