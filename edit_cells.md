@@ -175,7 +175,7 @@ To lock/unlock cells, you can use one of the two available ways:
 
 ## Adding Link into a Cell
 
-It is possible to add a link to an external resource into a cell.
+It is possible to add a link to an external resource or a specific cell.
 
 ![Adding Link to a Cell](.gitbook/assets/cell\_with\_link.png)
 
@@ -196,6 +196,10 @@ To insert a link into a cell:
 3\) In the appeared popup enter the text of the link in the first line and insert the link into the second line:
 
 ![Add Link Popup](.gitbook/assets/add\_link\_popup.png)
+
+If you want to add the link to a specific cell, use "#" before the cell reference:
+
+<figure><img src=".gitbook/assets/link_via_hashtag.png" alt=""><figcaption><p>Link to a Specific Cell</p></figcaption></figure>
 
 4\) Click the **Save** button to apply changes.
 
