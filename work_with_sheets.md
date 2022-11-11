@@ -57,6 +57,23 @@ To copy the content of a sheet:
 
 After that a new sheet will appear. It will contain the content identical to that of the active sheet. A tab with the name of the new sheet will be added into the bottom bar.
 
+## Hiding/Showing Sheets
+
+You can hide a sheet by using one of the two ways:\
+
+
+1\) Click the **Sheets** button in the **File** section and choose the _Hide sheet_ option:
+
+<figure><img src=".gitbook/assets/sheets_hide_sheet.png" alt=""><figcaption><p>Hide Sheet Option</p></figcaption></figure>
+
+2\) Or you can click the arrow in the corresponding tab of the bottom bar and select _Hide sheet_ in the context menu:
+
+<figure><img src=".gitbook/assets/hide_sheet.png" alt=""><figcaption><p>Hide Sheet Option</p></figcaption></figure>
+
+To show the hidden sheet, click the "dots" button in the bottom left corner of the widget and choose a hidden sheet from the list:
+
+<figure><img src=".gitbook/assets/show_sheet.png" alt=""><figcaption><p>Showing Sheets</p></figcaption></figure>
+
 ## Hiding/Showing Rows and Columns Headers
 
 You can easily hide the headers of rows and columns and show them again.
