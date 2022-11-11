@@ -163,6 +163,14 @@ _Adding a range named Total for cells F2-F4_
 
 ![Saving New Named Range](.gitbook/assets/saved\_named\_range.png)
 
+You can navigate between ranges using the dropdown list from the navigation input field:
+
+<figure><img src=".gitbook/assets/range_select.png" alt=""><figcaption><p>Named Ranges List</p></figcaption></figure>
+
+Note that this list will contain only ranges with the entire book scope or the current worksheet.
+
+
+
 ### Using Named Range in Formulas
 
 After a named range is added into a list, you can use it as an argument in a function/formula. The image below shows how the _Total\_range for cells F2-F4 is used in the \_SUM_ function:
