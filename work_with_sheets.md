@@ -101,3 +101,12 @@ This is how a sheet with content will be displayed with grid lines hidden:
 ![Hidden Gridlines](.gitbook/assets/hidden\_gridlines.png)
 
 To restore grid lines, click the **Hide/show gridlines** button again.
+
+## Zoom in/out
+
+Zoom controls are located in the bottom right corner of the widget.\
+\
+Click the **+** button to zoom in and **-** button to zoom out.
+
+<figure><img src=".gitbook/assets/spreadsheet_zoom_small.png" alt=""><figcaption><p>Zoom controls</p></figcaption></figure>
+

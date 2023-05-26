@@ -32,9 +32,9 @@ You can find the full list of functions below.
 
 3\) Press the **Enter** button to get the result of formula calculation.
 
-****
 
-You can show formulas in cells instead of values. To do it, click on the **Hide/show formulas** button **** in the **View** section.
+
+You can show formulas in cells instead of values. To do it, click on the **Hide/show formulas** button in the **View** section.
 
 ## The List of Supported Functions
 
