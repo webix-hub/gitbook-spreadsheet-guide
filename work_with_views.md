@@ -32,7 +32,7 @@ You can also define the left column as the X-axis or/and the top row as the lege
 
 Roughly speaking all default chart types can be divided into two groups:
 
-1. Linear (_Line, Spline, Spline Area, Area, Bar, and Radar_)
+1. Linear (_Line, Spline, Spline Area, Area, Bar, Scatter and Radar_)
 2. Circular (_Pie and Donut_)
 
 ![Linear and Circular Charts](.gitbook/assets/chart\_types.png)
