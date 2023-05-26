@@ -52,6 +52,20 @@ To perform the **special paste**, you should take the following steps:
 3. Right-click on it and select the **Special paste** option in the context menu.
 4. Select the paste option you need**.**
 
+## Fill a Cell Range Automatically <a href="#page-header" id="page-header"></a>
+
+You can use the selection handle to fill a range in a certain direction. The range is filled with values that were either copied from the initial selected cell or determined by the pattern of selected cells. To fill in the data, you should take the following steps:
+
+1\) Select the cell that contains the formula or the values that you want to fill in the cells next to it.
+
+2\) Hover over the bottom right corner so that the cursor changes to a plus sign (**+**),
+
+3\) Drag the selection handle across the cells you want to fill.
+
+4\) When you let go, the data is automatically filled in cells.
+
+<figure><img src=".gitbook/assets/drag_copying_spreadsheet.gif" alt=""><figcaption><p>Fill Data Automatically</p></figcaption></figure>
+
 ## Sorting Data in a Range
 
 You can sort data in a selected range of cells in both ascending and descending directions. There are two ways to do that:
