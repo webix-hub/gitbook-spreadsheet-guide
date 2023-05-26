@@ -133,9 +133,11 @@ It's really easy to do:
 * Type the reference to the range as a pair of the starting and ending cells as A2:A5
 * Select a range of cells in a sheet and the reference will appear in the input automatically
 
-![Add Dropdown Popup](.gitbook/assets/dropdown\_popup.png)
+4\) To add an empty option to your list, check the **Empty** **option** checkbox.
 
-4\) Click the **Save** button to add a dropdown list into a cell.
+<figure><img src=".gitbook/assets/add_dropdown_spreadsheet.png" alt=""><figcaption><p>Add Dropdown Popup</p></figcaption></figure>
+
+5\) Click the **Save** button to add a dropdown list into a cell.
 
 ### Removing Filters and Dropdown Lists
 
