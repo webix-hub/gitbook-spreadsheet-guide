@@ -34,7 +34,7 @@ To **paste** the copied/cut cell(s), you should take the following steps:
 
 You can also paste a cell via the **"**_Ctrl+V / Command+V_**"** shortcut.
 
-When you copy or move the cell(s), you also copy or move styles, applied formulas, and conditional formats with it.&#x20;
+When you copy or move the cell(s), you also copy or move styles, applied formulas, and conditional formats with it.
 
 ### Special Paste
 
@@ -50,7 +50,7 @@ To perform the **special paste**, you should take the following steps:
 1. Copy a cell or a range of cells.
 2. Select the cell you want to paste into.
 3. Right-click on it and select the **Special paste** option in the context menu.
-4. Select the paste option you need**.**
+4. Select the paste option you need\*\*.\*\*
 
 ## Fill a Cell Range Automatically <a href="#page-header" id="page-header"></a>
 
@@ -116,7 +116,7 @@ To filter data:
 
 ![Create Filter Button](.gitbook/assets/create\_filter\_button.png)
 
-* Right-click the selected range and select the _Create filter_ option in the context menu.&#x20;
+* Right-click the selected range and select the _Create filter_ option in the context menu.
 
 ![Create Filter Option](.gitbook/assets/create\_filter\_option.png)
 
@@ -201,7 +201,7 @@ To insert a link into a cell:
 
 2\) Choose one of the following options:
 
-* Click the **Add link** button in the **Edit** section:        &#x20;
+* Click the **Add link** button in the **Edit** section:
 
 ![Adding Link via Toolbar](.gitbook/assets/add\_link\_button.png)
 
@@ -252,7 +252,7 @@ To insert a graph into a cell:
 3\) In the appeared popup enter sparkline configuration:
 
 * choose the type of the line
-* set the cell range&#x20;
+* set the cell range
 * select the color of the graph (except for the Pie type) or two colors (for positive and negative values) for the Bar type
 
 ![Add Sparkline Popup](.gitbook/assets/add\_graph\_popup.png)
@@ -289,50 +289,49 @@ You can change the size of the comment popup by dragging the resizer handle in t
 
 You can add a validation rule for the content of a cell. A validation rule can be added to a cell via the **Validation** button on the Toolbar:
 
-![Adding Validation Rule into a Cell](.gitbook/assets/adding\_validation\_toolbar.png)
+<figure><img src=".gitbook/assets/adding_validation_toolbar.png" alt=""><figcaption><p>Validation Button Options</p></figcaption></figure>
 
 or via the Menu or Context Menu options. A click on the "Add data validation" option will open a dialog popup:
 
-![Validation Rule Dialog](.gitbook/assets/adding\_validation\_rules\_dialog.png)
+<figure><img src=".gitbook/assets/validation_rules_dialog.png" alt=""><figcaption><p>Validation Rules Dialog</p></figcaption></figure>
 
 This popup contains a set of validation rule types and their attrubutes. After you add a validation rule to a cell, a click on it will call a textarea with the rule details:
 
-![Validation Cell Popup](.gitbook/assets/adding\_validation\_cell\_popup.png)
+<figure><img src=".gitbook/assets/validation_cell_popup.png" alt=""><figcaption><p>Validation Cell Popup</p></figcaption></figure>
 
-A validation rule can have one of the following types: 
+A validation rule can have one of the following types:
 
-- "any" (a cell can have any content)
-- "date"
-- "number" 
-- "text"
-- "textLength"
-- "range" (to validate data among a range of cells)
-    
+* "any" (a cell can have any content)
+* "date"
+* "number"
+* "text"
+* "textLength"
+* "range" (to validate data among a range of cells)
+
 Depending on the **type** of the rule, it can have the following attributes:
 
-- **Integers only** - (for the *number* type) for accepting only integer numbers
-- **Ignore empty** - to ignore/ not ignore empty cells
-- **Condition** -  the condition that will be applied. Depending on the rule type, may include the following values:
-	- greater
-	- less
-	- greater or equal
-	- less or equal
-	- equal
-	- not equal
-	- between
-	- not between
-	- contains
-	- not contains
-	- begins with
-	- not begins with
-	- ends with
-	- not ends with
-- **Value** - a value or an array of two values (for the rules like "between/not between") that
-	should be compared to the value of the specified cell 
-- **Input message** - a popup with the text specified in this property will be shown on selection of a cell
-- **Error handle** - the way of handling an error (in the corresponding confirm box):
-	- "stop" - doesn't allow setting an incorrect value
-	- "warning" - allows cancelling the set value
-	- "information" - an box informing that the value is not valid 
-- **Error title** - the header of the confirm box with an error
-- **Error message** - the text of the confirm box with an error
+* **Integers only** - (for the _number_ type) for accepting only integer numbers
+* **Ignore empty** - to ignore/ not ignore empty cells
+* **Condition** - the condition that will be applied. Depending on the rule type, may include the following values:
+  * greater
+  * less
+  * greater or equal
+  * less or equal
+  * equal
+  * not equal
+  * between
+  * not between
+  * contains
+  * not contains
+  * begins with
+  * not begins with
+  * ends with
+  * not ends with
+* **Value** - a value or an array of two values (for the rules like "between/not between") that should be compared to the value of the specified cell
+* **Input message** - a popup with the text specified in this property will be shown on selection of a cell
+* **Error handle** - the way of handling an error (in the corresponding confirm box):
+  * "stop" - doesn't allow setting an incorrect value
+  * "warning" - allows cancelling the set value
+  * "information" - an box informing that the value is not valid
+* **Error title** - the header of the confirm box with an error
+* **Error message** - the text of the confirm box with an error
