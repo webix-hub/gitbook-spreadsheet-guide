@@ -284,3 +284,55 @@ You can add comments for a cell. To insert comments into a cell:
 You can change the size of the comment popup by dragging the resizer handle in the right bottom corner.
 
 ![Resize Comment Popup](.gitbook/assets/comment\_resizer.png)
+
+## Validating Cells Content
+
+You can add a validation rule for the content of a cell. A validation rule can be added to a cell via the **Validation** button on the Toolbar:
+
+![Adding Validation Rule into a Cell](.gitbook/assets/adding\_validation\_toolbar.png)
+
+or via the Menu or Context Menu options. A click on the "Add data validation" option will open a dialog popup:
+
+![Validation Rule Dialog](.gitbook/assets/adding\_validation\_rules\_dialog.png)
+
+This popup contains a set of validation rule types and their attrubutes. After you add a validation rule to a cell, a click on it will call a textarea with the rule details:
+
+![Validation Cell Popup](.gitbook/assets/adding\_validation\_cell\_popup.png)
+
+A validation rule can have one of the following types: 
+
+- "any" (a cell can have any content)
+- "date"
+- "number" 
+- "text"
+- "textLength"
+- "range" (to validate data among a range of cells)
+    
+Depending on the **type** of the rule, it can have the following attributes:
+
+- **Integers only** - (for the *number* type) for accepting only integer numbers
+- **Ignore empty** - to ignore/ not ignore empty cells
+- **Condition** -  the condition that will be applied. Depending on the rule type, may include the following values:
+	- greater
+	- less
+	- greater or equal
+	- less or equal
+	- equal
+	- not equal
+	- between
+	- not between
+	- contains
+	- not contains
+	- begins with
+	- not begins with
+	- ends with
+	- not ends with
+- **Value** - a value or an array of two values (for the rules like "between/not between") that
+	should be compared to the value of the specified cell 
+- **Input message** - a popup with the text specified in this property will be shown on selection of a cell
+- **Error handle** - the way of handling an error (in the corresponding confirm box):
+	- "stop" - doesn't allow setting an incorrect value
+	- "warning" - allows cancelling the set value
+	- "information" - an box informing that the value is not valid 
+- **Error title** - the header of the confirm box with an error
+- **Error message** - the text of the confirm box with an error
