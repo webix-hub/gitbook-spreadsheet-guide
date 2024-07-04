@@ -285,6 +285,26 @@ You can change the size of the comment popup by dragging the resizer handle in t
 
 ![Resize Comment Popup](.gitbook/assets/comment\_resizer.png)
 
+## Adding Checkboxes and Radio Buttons into a Cell
+
+You can add checkboxes and radio buttons into cells.&#x20;
+
+<figure><img src=".gitbook/assets/checkbox_radio.png" alt=""><figcaption><p>Adding Checkboxes and Radio Buttons </p></figcaption></figure>
+
+To insert a checkbox or a radio button into a cell:
+
+1\) Select a cell to add a checkbox or a radio button into.
+
+2\) Choose one of the following options:
+
+* Click the **Controls** button in the **Insert** section of the toolbar and select **Add checkbox** or **Add radio group**:
+
+<figure><img src=".gitbook/assets/controls_button.png" alt=""><figcaption><p>Adding Checkboxes and Radio Buttons via Toolbar</p></figcaption></figure>
+
+* Click the **Insert** option in the menu and select **Controls->Add checkbox** or **Add radio group:**
+
+<figure><img src=".gitbook/assets/menu_controls_1.png" alt=""><figcaption><p>Adding Checkboxes and Radio Buttons via Menu</p></figcaption></figure>
+
 ## Validating Cells Content
 
 You can add a validation rule for the content of a cell. A validation rule can be added to a cell via the **Validation** button on the Toolbar:
