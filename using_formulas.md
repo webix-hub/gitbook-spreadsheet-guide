@@ -34,9 +34,13 @@ To add a formula from the list:
 3. In the input field, start typing the name of the desired formula. As you type, matching formulas will appear in a drop-down list.
 4. Select the formula from the drop-down list once it appears.
 
+<figure><img src=".gitbook/assets/spreadsheet_add_formula_button.png" alt=""><figcaption><p>Adding a formula</p></figcaption></figure>
 
 
-<figure><img src=".gitbook/assets/spreadsheet_add_formula_button.png" alt=""><figcaption><p>"Add formula" button</p></figcaption></figure>
+
+In case the "methods" option is enabled in the SpreadSheet configuration, you can choose a formula by the category:
+
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>Adding a formula by category</p></figcaption></figure>
 
 At the end press the **Enter** button to get the result of formula calculation.
 
@@ -46,7 +50,7 @@ You can show formulas in cells instead of values. To do it, click on the **Hide/
 
 SpreadSheet can work with the Excel functions. For more details on these functions, please see the [documentation](https://support.microsoft.com/en-us/office/excel-functions-alphabetical-b3944572-255d-4efb-bb96-c6d90033e188) for Microsoft Excel.
 
-You can find the full list of functions that are supported by SpreadSheet [here](https://docs.webix.com/spreadsheet\_\_functions.html).
+You can find the full list of functions that are supported by SpreadSheet [here](https://docs.webix.com/spreadsheet__functions.html).
 
 ## Adding Named Range
 
@@ -58,11 +62,11 @@ To add a named range:
 
 * Click the **Named Ranges** button in the **Edit** section.
 
-![Named Ranges Button](.gitbook/assets/named\_ranges\_button.png)
+![Named Ranges Button](.gitbook/assets/named_ranges_button.png)
 
 * Right-click any cell and select the _Named Ranges_ option in the context menu.
 
-![Named Range Option](.gitbook/assets/named\_range\_context\_option.png)
+![Named Range Option](.gitbook/assets/named_range_context_option.png)
 
 2\) In the opened popup specify the desired name and add cells that will be included in the range in one of the ways below:
 
@@ -71,11 +75,11 @@ To add a named range:
 
 _Adding a range named Total for cells F2-F4_
 
-![Named Range Popup](.gitbook/assets/named\_range\_popup.png)
+![Named Range Popup](.gitbook/assets/named_range_popup.png)
 
 3\) Click the **Save** button to save a new range. It will appear in the list of ranges in the left part of the popup.
 
-![Saving New Named Range](.gitbook/assets/saved\_named\_range.png)
+![Saving New Named Range](.gitbook/assets/saved_named_range.png)
 
 You can navigate between ranges using the dropdown list from the navigation input field:
 
@@ -89,11 +93,11 @@ Note that this list will contain only ranges with the entire book scope or the c
 
 After a named range is added into a list, you can use it as an argument in a function/formula. The image below shows how the _Total\_range for cells F2-F4 is used in the \_SUM_ function:
 
-![Using Named Range in Function](.gitbook/assets/using\_named\_range.png)
+![Using Named Range in Function](.gitbook/assets/using_named_range.png)
 
 As a result, the values of the cells F2-F4 are summed up.
 
-![Result of Using Named Range in Function](.gitbook/assets/named\_range\_result.png)
+![Result of Using Named Range in Function](.gitbook/assets/named_range_result.png)
 
 ### Editing Named Range
 
@@ -101,11 +105,11 @@ To make changes in an existing named range:
 
 1\) Click the **Named Ranges** button
 
-![Named Ranges Button](.gitbook/assets/named\_ranges\_button.png)
+![Named Ranges Button](.gitbook/assets/named_ranges_button.png)
 
 2\) Apply the necessary action by clicking the corresponding icon in the line with the named range in question:
 
 * To edit the range, click the "pencil" icon.
 * To delete the range, click the "basket" icon.
 
-![Editing Icons for Named Range](.gitbook/assets/named\_range\_edit\_icons.png)
+![Editing Icons for Named Range](.gitbook/assets/named_range_edit_icons.png)

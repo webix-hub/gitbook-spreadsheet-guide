@@ -22,7 +22,7 @@ In the appeared printing dialog you can decide on some common options, select th
 
 ### Hide\show print borders
 
-To show print borders, click the **Hide\show print borders** button. To hide print them**,** click this button again.
+To show print borders, click the **Hide\show print borders** button. To hide print the&#x6D;**,** click this button again.
 
 <figure><img src=".gitbook/assets/print_hide_printing_borders_button.png" alt=""><figcaption><p>Hide\show print borders Button</p></figcaption></figure>
 
