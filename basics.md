@@ -43,6 +43,7 @@ To select all cells, click the triangle in the top left corner.
 | **Ctrl+\`**              | Show formulas in cells instead of values.                                                                                                               |
 | **Ctrl+plus sign(+)**    | Zoom in                                                                                                                                                 |
 | **Ctrl+minus sign(-)**   | Zoom out                                                                                                                                                |
+| **Ctrl+mousewheel**      | Zoom in/out                                                                                                                                             |
 | **Ctrl+0**               | Reset the zoom level                                                                                                                                    |
 | **Delete**               | Remove the content of a cell, or the character to the right of the insertion point (in the editing mode).                                               |
 | **Backspace**            | Remove the content of a cell, or the character to the left of the insertion point (in the editing mode).                                                |
