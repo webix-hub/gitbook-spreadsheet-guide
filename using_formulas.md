@@ -34,9 +34,7 @@ To add a formula from the list:
 3. In the input field, start typing the name of the desired formula. As you type, matching formulas will appear in a drop-down list.
 4. Select the formula from the drop-down list once it appears.
 
-<figure><img src=".gitbook/assets/spreadsheet_add_formula_button.png" alt=""><figcaption><p>Adding a formula</p></figcaption></figure>
-
-
+![Adding a formula](.gitbook/assets/add_formula.png)
 
 In case the "methods" option is enabled in the SpreadSheet configuration, you can choose a formula by the category:
 
