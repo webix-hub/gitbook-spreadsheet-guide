@@ -162,7 +162,11 @@ You can set the necessary format for the whole column or row. There are two ways
 
 3\) Choose the _Column format_ option for a column and select the necessary format:
 
+![Set Column Format via Context Menu](.gitbook/assets/column_format_context_menu.png)
+
 or choose the _Row format_ option for a row and select the format for it:
+
+![Set Row Format via Context Menu](.gitbook/assets/row_format_context_menu.png)
 
 ## Clear Formatting
 
