@@ -144,6 +144,26 @@ The decimal and thousands separators are taken from the applied locale. By defau
 * **.** \(period\) - the digit placeholder to display the decimal point in a number.
 * **,** \(comma\) - the digit placeholder to display the thousands separator in a number.
 
+## Setting Format for Entire Column/Row
+
+You can set the necessary format for the whole column or row. There are two ways you can choose from.
+
+### Set format via the menu
+
+1\) Select the column/row by clicking on its header.
+
+2\) Click the **Number format** button in the **Number** section and select the format.
+
+### Set format via the context menu
+
+1\) Select the column/row by clicking on its header.
+
+2\) Right-click on the column/row header to open the context menu.
+
+3\) Choose the _Column format_ option for a column and select the necessary format:
+
+or choose the _Row format_ option for a row and select the format for it:
+
 ## Clear Formatting
 
 You can discard the applied formatting in two ways:
