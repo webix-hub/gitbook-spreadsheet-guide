@@ -66,6 +66,12 @@ You can use the selection handle to fill a range in a certain direction. The ran
 
 <figure><img src=".gitbook/assets/drag_copying_spreadsheet.gif" alt=""><figcaption><p>Fill Data Automatically</p></figcaption></figure>
 
+You can also automatically fill in days of the week and month names. Both short and full formats are supported (e.g., Mon/Monday, Jan/January). Autofill for days and months is locale-based, meaning it depends on the current locale settings.
+
+Autofill considers the case of the input. If the day or month name is entered entirely in lowercase or uppercase, the same casing is applied to the auto-filled cells. For all other input variations (e.g. MOn, MoNDay), casing follows the default formatting rules of the locale.
+
+<figure><img src=".gitbook/assets/spreadsheet_days_months.gif" alt=""><figcaption><p>Autofill for Days and Months</p></figcaption></figure>
+
 ## Sorting Data in a Range
 
 You can sort data in a selected range of cells in both ascending and descending directions. There are two ways to do that:
