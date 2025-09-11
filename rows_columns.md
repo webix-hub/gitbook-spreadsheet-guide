@@ -194,3 +194,35 @@ _The column C will be frozen_
 
 ![Frozen Column](.gitbook/assets/frozen_column.png)
 
+## Setting Format for Entire Column/Row
+
+You can set the necessary format for the whole column or row. There are two ways you can choose from.
+
+### Set format via the toolbar
+
+1\) Select the column/row by clicking on its header.
+
+2\) Click the **Number format** button in the **Number** toolbar section and select the format.
+
+### Set format via the context menu
+
+1\) Select the column/row by clicking on its header.
+
+2\) Right-click on the column/row header to open the context menu.
+
+3\) Choose the _Column format_ option for a column and select the necessary format:
+
+![Set Column Format via Context Menu](.gitbook/assets/column_format_context_menu.png)
+
+or choose the _Row format_ option for a row and select the format for it:
+
+![Set Row Format via Context Menu](.gitbook/assets/row_format_context_menu.png)
+
+### Inheriting columns/rows formats by new cells
+
+When a new column or row is added, new cells inherit the existing formats in the following way:
+
+- on adding a new row/rows, new cells inherit the format from the cells of the above row
+- on adding a new column/columns, new cells inherit the format from the cells of the column to the left
+
+
