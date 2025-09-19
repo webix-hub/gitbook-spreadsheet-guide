@@ -66,6 +66,8 @@ You can use the selection handle to fill a range in a certain direction. The ran
 
 <figure><img src=".gitbook/assets/drag_copying_spreadsheet.gif" alt=""><figcaption><p>Fill Data Automatically</p></figcaption></figure>
 
+### Automatic Fill for Days and Months
+
 You can also automatically fill in days of the week and month names. Both short and full formats are supported (e.g., Mon/Monday, Jan/January). Autofill for days and months is locale-based, meaning it depends on the current locale settings.
 
 Autofill considers the case of the input. If the day or month name is entered entirely in lowercase or uppercase, the same casing is applied to the auto-filled cells. For all other input variations (e.g. MOn, MoNDay), casing follows the default formatting rules of the locale.
