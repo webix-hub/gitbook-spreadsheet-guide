@@ -12,6 +12,14 @@ There is a set of buttons in the **Font** section that allow you to modify the d
 * To change the font and background colors, use color pickers attached to the related buttons.
 * To style and color cell borders, make use of the **Borders** button.
 
+### Styling Cell Borders
+
+You can set borders for cells and adjust their appearance in the corresponding popup that opens on clicking the **Borders** button.
+
+![Cell borders popup](.gitbook/assets/add_cell_borders_popup.png)
+
+To adjust the styling of the border of a cell: select (in any order) the position of the border, choose its color and type, and click the **Apply** button.
+
 ## Aligning Cell Content
 
 You can align the content of a cell in several ways.
