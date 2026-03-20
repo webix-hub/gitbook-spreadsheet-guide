@@ -24,6 +24,14 @@ To rename a sheet:
 
 2\) Type a new name for the sheet and press **Enter** to save changes.
 
+Note that if you've entered an incorrect name for a sheet, a popup with warning will appear:
+
+![Warning on incorrect sheet name](.gitbook/assets/incorrect\_sheetname\_popup.png)
+
+Also, if you've entered the name of the sheet which already exists, the following warning popup will show:
+
+![Warning on repeated sheet name](.gitbook/assets/repeated\_sheetname\_popup.png)
+
 ## Removing a Sheet
 
 You can remove a sheet together with its data by using one of the two ways:
