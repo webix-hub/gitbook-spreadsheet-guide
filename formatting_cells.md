@@ -103,6 +103,30 @@ To split a merged cell:
 * Select the merged cell that should be split into several cells.
 * Click the **Merge** button.
 
+### Styles Merging Behavior
+
+- Spreadsheet applies the style of the top-left cell to all merged cells.
+- When setting styles via the toolbar or menu, Spreadsheet applies them to all cells in the merge. 
+- If the cells have borders before merging, Spreadsheet removes the inner borders and applies the outer borders based on the borders set on the perimeter. 
+
+For example:
+
+![Merging borders](.gitbook/assets/merging\_cells\_with\_borders.png)
+
+On merging the cells, Spreadsheet applies styling as shown below:
+
+![Merged borders](.gitbook/assets/merged\_cell\_with\_borders.png)
+
+- Cell borders can be solid or dashed. If you apply mixed solid and dashed borders to cells in a range, Spreadsheet uses the first border type it encounters during merging.
+
+For example:
+
+![Merging styled borders](.gitbook/assets/merging\_cells\_styled\_borders.png)
+
+The result of merging cells with different border types is the following:
+
+![Merged styled borders](.gitbook/assets/merged\_cells\_styled\_borders.png)
+
 ## Conditional Cells Formatting
 
 You can set a special format for a cell/cells the values of which correspond to a particular condition or several conditions at once.
