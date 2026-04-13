@@ -34,7 +34,7 @@ SpreadSheet provides all border types available in Excel:
 * thick
 * double
 
-![Cell border types](.gitbook/img/cell_border_types.png)
+![Cell border types](./img/cell_border_types.png)
 
 To adjust the styling of the border of a cell: select (in any order) the position of the border, choose its color and type, and click the **Apply** button.
 
