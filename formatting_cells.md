@@ -16,7 +16,7 @@ There is a set of buttons in the **Font** section that allow you to modify the d
 
 You can set borders for cells and adjust their appearance in the corresponding popup that opens on clicking the **Borders** button.
 
-![Cell borders popup](.gitbook/img/add_cell_borders_popup.png)
+![Cell borders popup](.gitbook/assets/add_cell_borders_popup.png)
 
 SpreadSheet provides all border types available in Excel:
 
@@ -34,7 +34,7 @@ SpreadSheet provides all border types available in Excel:
 * thick
 * double
 
-![Cell border types](.gitbook/assets/cell_border_types.png)
+![Cell border types](.gitbook/img/cell_border_types.png)
 
 To adjust the styling of the border of a cell: select (in any order) the position of the border, choose its color and type, and click the **Apply** button.
 
