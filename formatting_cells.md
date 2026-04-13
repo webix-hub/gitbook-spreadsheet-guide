@@ -38,7 +38,7 @@ SpreadSheet provides all border types available in Excel:
 
 To adjust the styling of the border of a cell: select (in any order) the position of the border, choose its color and type, and click the **Apply** button.
 
-<img src="./img/border_types_gitbook.gif" width: 664px; alt="Styling Cell Borders">
+<img src="./img/border_types_gitbook.gif" width="664" alt="Styling Cell Borders">
 
 ## Aligning Cell Content
 
