@@ -118,7 +118,7 @@ The selector displays the following values: **Sum**, **Average**, **Min**, **Max
 
 You can choose which metric is displayed when the selector is collapsed.
 
-<div style="border: 1px solid grey; width: 200px;"><img src="./img/statistics_select.gif" alt="Statistics Select"></div>
+<div style="border: 1px solid grey !important; width: 200px;"><img src="./img/statistics_select.gif" alt="Statistics Select"></div>
 
 ## Adding Filters and Dropdown Lists into Cells
 
