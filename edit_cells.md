@@ -122,6 +122,7 @@ You can choose which metric is displayed when the selector is collapsed.
 
 ## Adding Filters and Dropdown Lists into Cells
 
+
 ### Adding a Filter
 
 You can add filters for cells of a column. While selecting an option in the added filter, the whole grid data will be filtered according to the value of this option.
