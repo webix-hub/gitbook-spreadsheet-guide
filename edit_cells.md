@@ -110,7 +110,7 @@ You can view statistics for the highlighted cell range in the selector at the bo
 
 The selector displays the following values: **Sum**, **Average**, **Min**, **Max**, **Count** and **Numerical Count**.
 
-<img src="./img/cells_range_statistics.png" alt="Cell Range Statistics" width="760">
+<img src=".gitbook/assets/cells_range_statistics.png" alt="Cell Range Statistics" width="760">
 
 *  **Sum**, **Average**, **Min**, and **Max** calculations use numeric data only; text and empty cells are ignored.
 *  **Count** reflects the number of non-empty cells.
@@ -118,7 +118,7 @@ The selector displays the following values: **Sum**, **Average**, **Min**, **Max
 
 You can choose which metric is displayed when the selector is collapsed.
 
-<img src="./img/cells_statistics.gif" alt="Statistics Select" width="200">
+<img src=".gitbook/assets/cells_statistics.gif" alt="Statistics Select" width="200">
 
 ## Adding Filters and Dropdown Lists into Cells
 
