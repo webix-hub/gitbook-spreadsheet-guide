@@ -18,7 +18,27 @@ You can set borders for cells and adjust their appearance in the corresponding p
 
 ![Cell borders popup](.gitbook/assets/add_cell_borders_popup.png)
 
+SpreadSheet provides all border types available in Excel:
+
+* hair 
+* dotted
+* dashDotDot
+* dashDot
+* dashed
+* thin
+* mediumDashDotDot 
+* slantDashDot
+* mediumDashDot
+* mediumDashed 
+* medium
+* thick
+* double
+
+![Cell border types](.gitbook/assets/cell_border_types.png)
+
 To adjust the styling of the border of a cell: select (in any order) the position of the border, choose its color and type, and click the **Apply** button.
+
+<figure><img src=".gitbook/assets/border_types_gitbook.gif" width="664" alt="Styling Cell Borders"></figure>
 
 ## Aligning Cell Content
 
