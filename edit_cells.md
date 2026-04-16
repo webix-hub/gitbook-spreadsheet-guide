@@ -118,7 +118,7 @@ The selector displays the following values: **Sum**, **Average**, **Min**, **Max
 
 You can choose which metric is displayed when the selector is collapsed.
 
-<img src=".gitbook/assets/cells_statistics.gif" alt="Statistics Select" width="200">
+<figure><img src=".gitbook/assets/cells_statistics.gif" alt="Statistics Select" width="200"><figure>
 
 ## Adding Filters and Dropdown Lists into Cells
 
