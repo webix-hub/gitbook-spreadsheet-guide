@@ -104,7 +104,24 @@ In the image below the range is sorted in the ascending order. Pay attention tha
 
 ![Sorted Column](.gitbook/assets/sorted_range_of_cells.png)
 
+## Viewing Cell Range Statistics
+
+You can view statistics for the highlighted cell range in the selector at the bottom of SpreadSheet, next to the zoom in/out controls.
+
+The selector displays the following values: **Sum**, **Average**, **Min**, **Max**, **Count** and **Numerical Count**.
+
+<img src=".gitbook/assets/cells_range_statistics.png" alt="Cell Range Statistics" width="760">
+
+*  **Sum**, **Average**, **Min**, and **Max** calculations use numeric data only; text and empty cells are ignored.
+*  **Count** reflects the number of non-empty cells.
+*  **Numeric Count** returns the number of cells with numeric data.
+
+You can choose which metric is displayed when the selector is collapsed.
+
+<figure><img src=".gitbook/assets/cells_statistics.gif" alt="Statistics Select" width="200"></figure>
+
 ## Adding Filters and Dropdown Lists into Cells
+
 
 ### Adding a Filter
 

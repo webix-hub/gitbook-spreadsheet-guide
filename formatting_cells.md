@@ -12,6 +12,34 @@ There is a set of buttons in the **Font** section that allow you to modify the d
 * To change the font and background colors, use color pickers attached to the related buttons.
 * To style and color cell borders, make use of the **Borders** button.
 
+### Styling Cell Borders
+
+You can set borders for cells and adjust their appearance in the corresponding popup that opens on clicking the **Borders** button.
+
+![Cell borders popup](.gitbook/assets/add_cell_borders_popup.png)
+
+SpreadSheet provides all border types available in Excel:
+
+* hair 
+* dotted
+* dashDotDot
+* dashDot
+* dashed
+* thin
+* mediumDashDotDot 
+* slantDashDot
+* mediumDashDot
+* mediumDashed 
+* medium
+* thick
+* double
+
+![Cell border types](.gitbook/assets/cell_border_types.png)
+
+To adjust the styling of the border of a cell: select (in any order) the position of the border, choose its color and type, and click the **Apply** button.
+
+<figure><img src=".gitbook/assets/border_types_gitbook.gif" width="664" alt="Styling Cell Borders"></figure>
+
 ## Aligning Cell Content
 
 You can align the content of a cell in several ways.
@@ -94,6 +122,30 @@ To split a merged cell:
 
 * Select the merged cell that should be split into several cells.
 * Click the **Merge** button.
+
+### Styles Merging Behavior
+
+- Spreadsheet applies the style of the top-left cell to all merged cells.
+- When setting styles via the toolbar or menu, Spreadsheet applies them to all cells in the merge. 
+- If the cells have borders before merging, Spreadsheet removes the inner borders and applies the outer borders based on the borders set on the perimeter. 
+
+For example:
+
+![Merging borders](.gitbook/assets/merging\_cells\_with\_borders.png)
+
+On merging the cells, Spreadsheet applies styling as shown below:
+
+![Merged borders](.gitbook/assets/merged\_cell\_with\_borders.png)
+
+- Cell borders can be solid or dashed. If you apply mixed solid and dashed borders to cells in a range, Spreadsheet uses the first border type it encounters during merging.
+
+For example:
+
+![Merging styled borders](.gitbook/assets/merging\_cells\_styled\_borders.png)
+
+The result of merging cells with different border types is the following:
+
+![Merged styled borders](.gitbook/assets/merged\_cells\_styled\_borders.png)
 
 ## Conditional Cells Formatting
 
