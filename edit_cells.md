@@ -110,7 +110,7 @@ You can view statistics for the highlighted cell range in the selector at the bo
 
 The selector displays the following values: **Sum**, **Average**, **Min**, **Max**, **Count** and **Numerical Count**.
 
-<img src=".gitbook/assets/cells_range_statistics.png" alt="Cell Range Statistics" width="760">
+![Cell Range Statistics](.gitbook/assets/cells_range_statistics.png)
 
 *  **Sum**, **Average**, **Min**, and **Max** calculations use numeric data only; text and empty cells are ignored.
 *  **Count** reflects the number of non-empty cells.
