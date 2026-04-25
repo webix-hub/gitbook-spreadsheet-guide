@@ -52,6 +52,24 @@ To perform the **special paste**, you should take the following steps:
 3. Right-click on it and select the **Special paste** option in the context menu.
 4. Select the paste option you need\*\*.\*\*
 
+### Transposed Pasting
+
+SpreadSheet allows you to flip the rows and columns of copied data when pasting. This lets you rearrange your dataset while preserving formatting. For example, converting horizontal headers into vertical lists and vice versa.
+
+To **paste transposed** data, you should take the following steps:
+
+1. Copy a cell or a range of cells.
+2. Select the cell you want to paste into.
+3. Right-click on it and select the **Special paste** option in the context menu.
+4. Select the **Paste transposed** option.
+
+Note the following behavior:
+
+- If you **cut** the cells before pasting, the cut is treated as a copy and the original data is not removed.
+- If the destination range is larger than the copied data, the data is repeated in a tile pattern to fill the available space.
+
+<figure><img src=".gitbook/assets/paste_transposed.gif" alt="Transposed Pasting"><figcaption><p>Transposed Pasting</p></figcaption></figure>
+
 ## Fill a Cell Range Automatically <a href="#page-header" id="page-header"></a>
 
 You can use the selection handle to fill a range in a certain direction. The range is filled with values that were either copied from the initial selected cell or determined by the pattern of selected cells. To fill in the data, you should take the following steps:
