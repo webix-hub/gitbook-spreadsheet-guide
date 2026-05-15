@@ -16,6 +16,16 @@ To select all cells, click the triangle in the top left corner.
 
 ![Selecting All Cells](.gitbook/assets/select\_all.gif)
 
+## Selecting Multiple Areas
+
+You can select several non-adjacent cell areas at once:
+
+1. Select the first cell or range as usual.
+2. Hold **Ctrl** (or **Command** on Mac) and click another cell or drag over another range.
+3. Repeat to add more areas to the selection.
+
+![Selecting Multiple Areas](.gitbook/assets/multiselect\_area.gif)
+
 ## Keyboard Shortcuts in SpreadSheet
 
 ### Windows OS
