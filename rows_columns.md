@@ -1,9 +1,11 @@
 # Working with Rows and Columns
 
 You can insert new rows and columns, delete some of them, or just hide them and show, when necessary. You can also group rows and columns into collapsible ranges. All these
-actions are available via the **Rows** and **Columns** groups of buttons in the toolbar **View** section, the right-click context menu (called on the row/column header), and the **View** menu.
+actions are available via the **Rows** and **Columns** groups of buttons in the toolbar **View** section:
 
 ![Rows and Columns Buttons](.gitbook/assets/rows_columns_buttons.png)
+
+as well as via the right-click context menu (called on the row/column header), and the **View** menu.
 
 ## Working with Rows
 
@@ -79,31 +81,6 @@ Or:
 
 ![Show Row via Context Menu](.gitbook/assets/show_row_context_option.png)
 
-### Grouping and Ungrouping Rows
-
-You can group a range of rows into a collapsible section. Groups can be nested up to 8 levels deep.
-
-**Via the toolbar:**
-
-1. Select the rows by clicking and dragging across their headers.
-2. Click the **Rows** button in the toolbar **View** section to open the drop-down menu and choose the _Group row_ or _Ungroup row_ option.
-
-![Group/Ungroup Rows via Rows Button](.gitbook/assets/group_ungroup_row_option.png)
-
-**Via the View menu:**
-
-1. Select the rows by clicking and dragging across their headers.
-2. Open the **View** menu, go to **Row**, and choose the _Group row_ or _Ungroup row_ option.
-
-![Group/Ungroup Rows via Menu](.gitbook/assets/group_ungroup_row_menu_option.png)
-
-**Via the context menu:**
-
-1. Right-click the header of the selected rows.
-2. Select _Group row_ or _Ungroup row_ in the context menu.
-
-![Group/Ungroup Rows via Context Menu](.gitbook/assets/group_ungroup_row_context_option.png)
-
 ## Working with Columns
 
 ### Inserting Columns
@@ -178,9 +155,34 @@ Or:
 
 ![Show Column via Context Menu](.gitbook/assets/show_column_context_option.png)
 
-### Grouping and Ungrouping Columns
+## Grouping Rows and Columns
 
-You can group a range of columns into a collapsible section. Groups can be nested up to 8 levels deep.
+You can group rows and columns into collapsible ranges. Groups can be nested up to 8 levels deep.
+
+### Grouping and Ungrouping Rows
+
+**Via the toolbar:**
+
+1. Select the rows by clicking and dragging across their headers.
+2. Click the **Rows** button in the toolbar **View** section to open the drop-down menu and choose the _Group row_ or _Ungroup row_ option.
+
+![Group/Ungroup Rows via Rows Button](.gitbook/assets/group_ungroup_row_option.png)
+
+**Via the View menu:**
+
+1. Select the rows by clicking and dragging across their headers.
+2. Open the **View** menu, go to **Rows**, and choose the _Group row_ or _Ungroup row_ option.
+
+![Group/Ungroup Rows via Menu](.gitbook/assets/group_ungroup_row_menu_option.png)
+
+**Via the context menu:**
+
+1. Right-click the header of the selected rows.
+2. Select _Group row_ or _Ungroup row_ in the context menu.
+
+![Group/Ungroup Rows via Context Menu](.gitbook/assets/group_ungroup_row_context_option.png)
+
+### Grouping and Ungrouping Columns
 
 **Via the toolbar:**
 
@@ -192,7 +194,7 @@ You can group a range of columns into a collapsible section. Groups can be neste
 **Via the View menu:**
 
 1. Select the columns by clicking and dragging across their headers.
-2. Open the **View** menu, go to **Column**, and choose the _Group column_ or _Ungroup column_ option.
+2. Open the **View** menu, go to **Columns**, and choose the _Group column_ or _Ungroup column_ option.
 
 ![Group/Ungroup Columns via Menu](.gitbook/assets/group_ungroup_column_menu_option.png)
 
@@ -203,7 +205,15 @@ You can group a range of columns into a collapsible section. Groups can be neste
 
 ![Group/Ungroup Columns via Context Menu](.gitbook/assets/group_ungroup_column_context_option.png)
 
-#### Grouping Hotkeys
+### Using the Outline Controls
+
+When rows or columns are grouped via the API or the toolbar, menu, or context menu options described above, an outline area appears along the row headers (for row groups) or column headers (for column groups). It provides controls to collapse and expand groups directly in the sheet.
+
+![Outline Controls](.gitbook/assets/grouping_outlines.png)
+
+The outline shows a **+/-** button per nesting level. Click **-** to collapse all groups at that level and **+** to expand them.
+
+### Hotkeys
 
 You can group and ungroup rows and columns using keyboard shortcuts. Pressing the group or ungroup shortcut opens a dialog where you choose whether to apply the action to rows or columns.
 
