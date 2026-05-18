@@ -30,7 +30,7 @@ You can also enter any Excel function after the "=" symbol, f.e. =SUM(C2:D2).
 To add a formula from the list:
 
 1. Select the cell where you want the formula to go.
-2. Click the “Add formula” button. A popup window opens with a list of formulas and an input field.
+2. Click the "Add formula" button. A popup window opens with a list of formulas and an input field.
 3. In the input field, start typing the name of the desired formula. As you type, matching formulas will appear in a drop-down list.
 4. Select the formula from the drop-down list once it appears.
 
@@ -84,8 +84,6 @@ You can navigate between ranges using the dropdown list from the navigation inpu
 <figure><img src=".gitbook/assets/range_select.png" alt=""><figcaption><p>Named Ranges List</p></figcaption></figure>
 
 Note that this list will contain only ranges with the entire book scope or the current worksheet.
-
-
 
 ### Using Named Range in Formulas
 
