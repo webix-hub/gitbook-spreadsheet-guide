@@ -92,35 +92,40 @@ Autofill considers the case of the input. If the day or month name is entered en
 
 <figure><img src=".gitbook/assets/spreadsheet_days_months.gif" alt=""><figcaption><p>Autofill for Days and Months</p></figcaption></figure>
 
-## Sorting Data in a Range
+## Sorting Data
 
-You can sort data in a selected range of cells in both ascending and descending directions. There are two ways to do that:
+SpreadSheet lets you sort data within a selected range or sort the entire sheet by a column.
 
-1\) Select a range of cells that contain data to be sorted.
+### Sort Range
 
-![Selecting Cells for Sorting](.gitbook/assets/select_for_sorting.png)
+To sort data within a selected range of cells:
 
-2\) Make use of the corresponding button in the **Edit** section to sort data in either ascending or descending order:
+1\) Select a range containing 2 or more rows.
 
-* Click the **Sort A to Z** button to sort data in the descending order:
+2\) Click the **Sort Range** button in the **Edit** section of the toolbar and choose one of the options:
 
-![Sort in Descending Order](.gitbook/assets/sort_desc.png)
+![Sort Range Button](.gitbook/assets/sort_range_button.png)
 
-* Click the **Sort Z to A** button to sort data in the ascending order:
+* **Ascending (A to Z)** - sorts the range in ascending order
+* **Descending (Z to A)** - sorts the range in descending order
+* **Custom Sort** - opens a dialog for configuring multi-level sorting by multiple columns
 
-![Sort in Ascending Order](.gitbook/assets/sort_asc.png)
+You can also right-click a selection of 2 or more rows and choose the desired option from the **Sort range** group in the context menu, or use **Edit** menu → **Sort** → **Sort range**.
 
-Or:
+An example of custom sorting via context menu is shown below:
 
-1\) Right-click the cell/cells with data to be sorted to call the context menu.
+<figure><img src=".gitbook/assets/custom_sorting.gif" alt=""><figcaption><p>Custom Sorting via Context Menu</p></figcaption></figure>
 
-2\) Select _Sort_->_Sort A to Z_, or _Sort_->_Sort Z to A_ option, depending on the desired sorting direction.
+### Sort Sheet
 
-![Sorting via Context Menu](.gitbook/assets/sort_via_menu.png)
+To sort the entire sheet by a column:
 
-In the image below the range is sorted in the ascending order. Pay attention that the values in the **Total** column are recalculated accordingly:
+1\) Select a cell or column to sort by. If no column is selected, the sheet is sorted by column A.
 
-![Sorted Column](.gitbook/assets/sorted_range_of_cells.png)
+2\) Click the **Sort Sheet** button in the **Edit** section of the toolbar and choose the sorting direction, or use **Edit** menu → **Sort** → **Sort sheet**.
+
+![Sort Sheet Button](.gitbook/assets/sort_sheet_button.png)
+
 
 ## Viewing Cell Range Statistics
 
