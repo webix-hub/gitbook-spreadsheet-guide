@@ -1,13 +1,6 @@
 # Formatting Dates
 
-For dates, there is the _Date_ format.
-
-To apply the date format to a cell value:
-
-1\) Select a cell or a range of cells to format.\
-&#x20;2\) Click the **Date format** button in the Number section to open a drop-down list with number formats.\
-&#x20;3\) Choose the necessary format that will be applied to the selected cells.\
-
+For dates, there is the _Date_ format. You can apply one of the predefined formats or create a custom one.
 
 ## Applying a Predefined Date Format
 
