@@ -57,6 +57,8 @@ These are the allowed characters for a date format string:
   * "ss" - the second as a number with a leading zero (00 to 59);
   * "AM/PM" - switches to the 12-hour clock and displays AM or PM accordingly.
 
+> As in Excel, the letter **m** can represent either months or minutes, and Webix Spreadsheet automatically selects the appropriate interpretation based on the context. For example, `hh:mm` means hours:minutes, while `dd.mm.yyyy` means day.month.year.
+
 ## Displaying Milliseconds
 
 To display milliseconds, add **.000** at the end of the time format:
